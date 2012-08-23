@@ -58,17 +58,18 @@ body > div {
 }
 #nav li {
 	display: block;
-	font-size: 1.4em;
+	font-size: 1.2em;
 
 	text-align: center;
 	width: 25%;
 	margin: 0;
-	padding: 0.4em 0 0.3em;
+	padding: 0.1em 0 0.2em;
 	float: left;
 
-	border-top: 3px solid #423E3F;
 	border-right: 1px dotted;
 	font-family: 'PT Sans', sans-serif;
+	border-bottom: 1px solid #f2f2f2;
+	border-top: 2px solid #423E3F;
 }
 #nav li.current, #nav li:hover {
 
