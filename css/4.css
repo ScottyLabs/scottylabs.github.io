@@ -32,13 +32,13 @@ body > div {
 	display: inline-block;
 
 	margin-left: 1.5%;
-	margin-top: 4em;
+	margin-top: 3em;
 }
 #logo img {
 	height: 8em;
 	margin: 1em 0 1em 2%;
 }
-#callout, #featured-projects div {
+#callout, #featured-projects div, .partner {
 	background-color: #FCFCFC;
 	color: #363232;
 	padding: 1.5em 1em 1.25em 1.5em;
@@ -63,12 +63,12 @@ body > div {
 	text-align: center;
 	width: 25%;
 	margin: 0;
-	padding: 0.1em 0 0.2em;
+	padding: 0.2em 0 0.2em;
 	float: left;
 
 	border-right: 1px dotted;
 	font-family: 'PT Sans', sans-serif;
-	border-bottom: 1px solid #f2f2f2;
+	border-bottom: 2px solid #EBEBEB;
 	border-top: 2px solid #423E3F;
 }
 #nav li.current, #nav li:hover {
@@ -169,15 +169,17 @@ p, h3, h4, h5, h6 {
 #container {
 	padding-bottom: 2em;
 }
-#featured-projects .project {
+#featured-projects .project, .partner {
 	margin-bottom: 2em;
-	padding: 2.5em 6em;
-
 	float: left;
-	margin-left: 3%;
 	margin-top: 0;
 	width: 100%;
-	border-top: 6px solid #EA3F23;
+	
+}
+#featured-projects .project {
+    border-top: 6px solid #EA3F23;
+    padding: 2.5em 6em;
+    margin-left: 3%;
 }
 .project h2 {
 	font-size: 5em;
@@ -208,6 +210,8 @@ p, h3, h4, h5, h6 {
 #upcoming-events h1 {
     font-size: 2.1em;
     padding-left: 2%;
+    margin-top: 0.1em;
+    margin-bottom: 0.6em;
 }
 #upcoming-events li {
     background-color: #FFFFFF;
@@ -246,11 +250,11 @@ p, h3, h4, h5, h6 {
 	float: left;
 	width: 71%;
 }
-#featured-projects h1 {
+h1 {
 	width: 100%;
 	padding-left: 3%;
 	margin-bottom: 0.25em;
-	margin-top: 0.6em;
+	padding-top: 0.6em;
 }
 #footer {
     background-color: #423E3F;
@@ -273,16 +277,49 @@ p, h3, h4, h5, h6 {
 #footer p {
     color: #f2f2f2;
     font-size: 1.2em;
+}
+
+ {
+    margin-left: 3%;
+}
+
+.partner {
+    border-left: 4px solid #4D919C;
+    width: 94%;
+    display: inline-block;
+    position: relative;
+    padding-left: 1.25em;
 }	
-
-
+.partner h2 {
+    margin-bottom: 2em;
+    margin-left: 3%;
+    padding: 2em 12em 1em 2em;
+}
+.partner img {
+    float: right;
+    margin-right: 6%;
+    width: 71%;
+    margin-bottom: 0.6em;
+}
+.partner p {
+    padding-right: 0.5em;
+    width: 18%;
+    float: left;
+    margin-right: 1em;
+    padding-left: 1em;
+    margin-top: -0.25em;
+    padding-bottom: 0.5em;
+}
 
 @media screen and (min-width: 1180px) {
 	#logo {
-		float: left;
-	}
+	
+		font-size: 1.1em;
+		width: 77%;
+		float: right;
+}
 	#callout {
-		margin-top: 6em;
+		margin-top: 5em;
 		float: right;
 		width: 59%;
 		border-left: 3px solid #F26821;
