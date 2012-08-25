@@ -38,7 +38,7 @@ body > div {
 	height: 8em;
 	margin: 1em 0 1em 2%;
 }
-#callout, #featured-projects div, .partner {
+#callout, .project, .partner {
 	background-color: #FCFCFC;
 	color: #363232;
 	padding: 1.5em 1em 1.25em 1.5em;
@@ -176,7 +176,7 @@ p, h3, h4, h5, h6 {
 	width: 100%;
 	
 }
-#featured-projects .project {
+.project {
     border-top: 6px solid #EA3F23;
     padding: 2.5em 6em;
     margin-left: 3%;
@@ -186,6 +186,7 @@ p, h3, h4, h5, h6 {
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
+	width: 31%;
 }
 .project h3 {
 	color: #EA3F23; 
@@ -317,6 +318,32 @@ h1 {
     padding-bottom: 0.5em;
     margin-left: 19%;
 }
+#all-projects .project {
+    width: 95%;
+    float: left;
+    font-size: 0.75em;
+    margin-bottom: 2em;
+    padding-top: 2em;
+    padding-right: 11em;
+    padding-left: 3em;
+    padding-bottom: 3em;
+}
+#all-projects .project h2 {
+    position: absolute;
+}
+#all-projects .project h3 {
+    float: left;
+    margin-top: 4em;
+    text-align: center;
+    width: 36%;
+    font-size: 2em;
+    padding-left: 0;
+    margin-left: 0;
+}
+#all-projects .project p {
+    width: 58%;
+    float: right;
+}
 
 @media screen and (min-width: 1180px) {
 	#logo {
@@ -429,18 +456,18 @@ h1 {
 	#featured-projects h1 {
 		font-size: 3em;
 	}
-	#featured-projects .project {
+	 .project {
 		padding: 2em;
 	}
-	#featured-projects .project h2 {
+	.project h2 {
 		font-size: 3.5em;
 	
 		color: #443E3F;
-}
-	#featured-projects .project h3 {
+	}
+	.project h3 {
 		font-size: 1.1em;
 	}
-	#featured-projects .project p {
+	.project p {
 		font-size: 1em;
 	}
 	
@@ -448,5 +475,5 @@ h1 {
 		font-size: 3em;
 	
 		margin-bottom: 0.5em;
-}
+	}
 }
