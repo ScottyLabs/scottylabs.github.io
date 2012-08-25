@@ -289,39 +289,45 @@ h1 {
     display: inline-block;
     position: relative;
     padding-left: 1.25em;
+    margin-left: 3%;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }	
 .partner h2 {
-    margin-bottom: 2em;
-    margin-left: 3%;
-    padding: 2em 12em 1em 2em;
+    margin-bottom: 0;
+    margin-left: 14%;
+    padding: 0em 0em 1em 2em;
+    width: 80%;
 }
 .partner img {
-    float: right;
-    margin-right: 6%;
-    width: 71%;
+    position: absolute;
+    width: auto;
     margin-bottom: 0.6em;
+    top: 1.5em;
+    margin-left: 1.5em;
+    max-height: 82%;
+    max-width: 14%;
 }
 .partner p {
     padding-right: 0.5em;
-    width: 18%;
+    width: 59%;
     float: left;
     margin-right: 1em;
-    padding-left: 1em;
     margin-top: -0.25em;
     padding-bottom: 0.5em;
+    margin-left: 19%;
 }
 
 @media screen and (min-width: 1180px) {
 	#logo {
-	
 		font-size: 1.1em;
-		width: 77%;
-		float: right;
+		width: 36%;
+		float: left;
 }
 	#callout {
-		margin-top: 5em;
+		margin-top: 6em;
 		float: right;
-		width: 59%;
+		width:60%;
 		border-left: 3px solid #F26821;
 	}
 }
@@ -368,7 +374,7 @@ h1 {
 		float: left;
 		margin-right: 3%;
 		height: 11em;
-}
+	}
 	#featured-projects {
 		clear: both;
 	}
