@@ -38,7 +38,7 @@ body > div {
 	height: 8em;
 	margin: 1em 0 1em 2%;
 }
-#callout, .project, .partner {
+#callout, .project, .partner, #about .section, #sponsors .sponsor, #people >li {
 	background-color: #FCFCFC;
 	color: #363232;
 	padding: 1.5em 1em 1.25em 1.5em;
@@ -169,7 +169,7 @@ p, h3, h4, h5, h6 {
 #container {
 	padding-bottom: 2em;
 }
-#featured-projects .project, .partner {
+#featured-projects .project, .partner, #about .section, #sponsors .sponsor, #people > li {
 	margin-bottom: 2em;
 	float: left;
 	margin-top: 0;
@@ -181,23 +181,28 @@ p, h3, h4, h5, h6 {
     padding: 2.5em 6em;
     margin-left: 3%;
 }
-.project h2 {
+.project h2 , #about .section h2 {
 	font-size: 5em;
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
 }
+#about .section h2 {
+	font-size: 3.75em;
+}
 #featured-projects .project h2 {
 	width: 100%;
 }
-
-.project h3 {
+.project h3, #about .section h3 {
 	color: #EA3F23; 
 	font-size: 1.5em;
 	margin: 1em;
 	text-align: center;
 	font-weight: normal;
 	font-style: italic;
+}
+#about .section h3 {
+	color: #116D82;
 }
 .project p {
 	font-size: 1.5em;
@@ -237,10 +242,6 @@ p, h3, h4, h5, h6 {
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
 }
-#upcoming-events .date .month {
-}
-#upcoming-events .date .day {
-}
 #upcoming-events li h3 {
     font-size: 1em;
     padding: 0.8em 0.5em 0.4em 0.8em;
@@ -258,6 +259,7 @@ p, h3, h4, h5, h6 {
 }
 #main #featured-projects h1 {
     margin-top: 1em;
+    padding-left: 0.5em;
 }
 h1 {
 	width: 100%;
@@ -278,6 +280,7 @@ h1 {
 #footer h1 {
     color: #F26821;
     margin-bottom: 0.33em;
+    padding-left: 0.5em;
 }
 #footer h2 {
     color: #4D919C;
@@ -288,11 +291,7 @@ h1 {
     font-size: 1.2em;
 }
 
- {
-    margin-left: 3%;
-}
-
-.partner {
+.partner, #about .section, #sponsors .sponsor, #people > li {
     border-left: 4px solid #4D919C;
     width: 94%;
     display: inline-block;
@@ -301,7 +300,10 @@ h1 {
     margin-left: 3%;
     padding-top: 2em;
     padding-bottom: 2em;
-}	
+}
+#about .section {
+        border-color: #116D82;
+    }	
 .partner h2 {
     margin-bottom: 0;
     margin-left: 14%;
@@ -350,20 +352,20 @@ h1 {
 }
 #partners-page h1 {
 	background-color: #4D919C;
+	clear: both;
 }
 #all-projects .project {
+    font-size: 0.75em;
+	border-left: 4px solid #EA3F23;
+}
+#all-projects .project, #about .section, #people > li {
     width: 94%;
     float: left;
-    font-size: 0.75em;
     margin-bottom: 2em;
-    padding-top: 2em;
-    padding-right: 6em;
-    padding-left: 3em;
-    padding-bottom: 3em;
-    border-left: 4px solid #EA3F23;
+    padding: 2em 6em 2em 3em;
     border-top: none;
 }
-#all-projects .project hgroup {
+#all-projects .project hgroup , #about .section hgroup {
     width: 37%;
     float: left;
 }
@@ -373,7 +375,7 @@ h1 {
     padding-left: 0;
     margin-left: 0;
 }
-#all-projects .project p {
+#all-projects .project p, #about .section p {
     width: 58.8%;
     float: right;
 }
