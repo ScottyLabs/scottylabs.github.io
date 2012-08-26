@@ -186,8 +186,11 @@ p, h3, h4, h5, h6 {
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
-	width: 31%;
 }
+#featured-projects .project h2 {
+	width: 100%;
+}
+
 .project h3 {
 	color: #EA3F23; 
 	font-size: 1.5em;
@@ -208,11 +211,13 @@ p, h3, h4, h5, h6 {
 	padding-right: 2%;
 	margin-top: 3.5em;
 }
-#upcoming-events h1 {
-    font-size: 2.1em;
-    padding-left: 2%;
-    margin-top: 0.1em;
-    margin-bottom: 0.6em;
+#main #upcoming-events h1 {
+    margin-left: 0;
+    width: 100%;
+    text-align: right;
+    padding-left: 0;
+    margin-top: -0.8em;
+    padding-right: 0.35em;
 }
 #upcoming-events li {
     background-color: #FFFFFF;
@@ -250,6 +255,9 @@ p, h3, h4, h5, h6 {
 #featured-projects {
 	float: left;
 	width: 71%;
+}
+#main #featured-projects h1 {
+    margin-top: 1em;
 }
 h1 {
 	width: 100%;
@@ -318,30 +326,55 @@ h1 {
     padding-bottom: 0.5em;
     margin-left: 19%;
 }
+.page h1, #featured-projects h1, #upcoming-events h1 {
+    color: #FCFCFC;
+    padding-bottom: 0.3em;
+    margin-top: -0.25em;
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+    padding-top: 0.2em;
+    border-top: 5px solid #F2F2F2;
+    border-bottom: 4px solid #F2F2F2;
+    font-size: 1.9em;
+    width: 94%;
+    margin-left: 3%;
+}
+#projects-page h1, #featured-projects h1 {
+    background-color: rgb(234, 63, 35);
+}
+#featured-projects h1, #upcoming-events h1 {
+	width: 100%;
+}
+#about-page h1, #upcoming-events h1 {
+	background-color: #116D82;
+}
+#partners-page h1 {
+	background-color: #4D919C;
+}
 #all-projects .project {
-    width: 95%;
+    width: 94%;
     float: left;
     font-size: 0.75em;
     margin-bottom: 2em;
     padding-top: 2em;
-    padding-right: 11em;
+    padding-right: 6em;
     padding-left: 3em;
     padding-bottom: 3em;
+    border-left: 4px solid #EA3F23;
+    border-top: none;
 }
-#all-projects .project h2 {
-    position: absolute;
+#all-projects .project hgroup {
+    width: 37%;
+    float: left;
 }
 #all-projects .project h3 {
-    float: left;
-    margin-top: 4em;
     text-align: center;
-    width: 36%;
     font-size: 2em;
     padding-left: 0;
     margin-left: 0;
 }
 #all-projects .project p {
-    width: 58%;
+    width: 58.8%;
     float: right;
 }
 
@@ -355,7 +388,6 @@ h1 {
 		margin-top: 6em;
 		float: right;
 		width:60%;
-		border-left: 3px solid #F26821;
 	}
 }
 
@@ -365,11 +397,9 @@ h1 {
 	}
 	#callout {
 		display: block;
-
 		width: 96%;
 		float: none;
 		border: none;
-		border-top: 3px solid #F26821;
 		font-size: 0.9em;
 		margin: -1em 2% 2em 2%;
 	}
@@ -405,7 +435,7 @@ h1 {
 	#featured-projects {
 		clear: both;
 	}
-	#featured-projects h2 {
+	#featured-projects .project h2 {
 		font-size: 4em;
 	}
 	#featured-projects .project {
@@ -427,11 +457,9 @@ h1 {
 	}
 	#callout {
 		display: block;
-
 		width: 96%;
 		float: none;
 		border: none;
-		border-top: 3px solid #F26821;
 		font-size: 0.9em;
 		margin: -1em 2% 2em 2%;
 	}
