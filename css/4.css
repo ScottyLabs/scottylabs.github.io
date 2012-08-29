@@ -5,12 +5,15 @@
  * darkblue = rgb(17,109,130)
  */
 
-
+body > div {
+	max-width: 1600px;
+}
 body {
-	background-size: 30em;
 	height:100%;
 	font-size: 16px;
 	background-position: top left;
+	background-image: url('../img/styling/dotbg.png');
+	background-color: #ddd;
 }
 
 body > div {
@@ -55,6 +58,7 @@ body > div {
 	width: 100%;
 	position: fixed;
 	z-index: 100;
+	max-width: 1600px;
 }
 #nav li {
 	display: block;
