@@ -315,11 +315,19 @@ ul.bulleted li {
 	font-size: 1.25em;
 	margin-left: 3em;
 }
-.partner h2 {
+.partner h2, .partner p {
     margin-bottom: 0;
     margin-left: 14%;
     padding: 0em 0em 1em 2em;
     width: 80%;
+    float: right;
+	padding-left: 0;
+}
+.partner p {
+	padding-right: 15em;
+}
+.partner h2 {
+
 }
 .partner img {
     position: absolute;
@@ -329,15 +337,7 @@ ul.bulleted li {
     margin-left: 1.5em;
     max-height: 82%;
     max-width: 14%;
-}
-.partner p {
-    padding-right: 0.5em;
-    width: 59%;
-    float: left;
-    margin-right: 1em;
-    margin-top: -0.25em;
-    padding-bottom: 0.5em;
-    margin-left: 19%;
+    z-index: 0;
 }
 .page h1, #featured-projects h1, #upcoming-events h1 {
     color: #FCFCFC;
@@ -428,6 +428,9 @@ ul.bulleted li {
 		width: 100%;
 		padding-right: 3%;
 	}
+	.partner p {
+		padding-right: 4em;
+	}
 }
 @media screen and (max-width: 900px) {
 	#all-projects .project hgroup, #about .section hgroup {
@@ -441,6 +444,15 @@ ul.bulleted li {
 	#about .section p {
 		width: 100%;
 		float: none;
+	}
+	.partner h2, .partner p {
+		width: 77%;
+	}
+	.partner, #about .section {
+		padding-left: 0;
+	}
+	.partner p {
+		padding-right: 1em;
 	}
 }
 @media screen and (max-width: 800px) {
@@ -479,6 +491,23 @@ ul.bulleted li {
 	#upcoming-events li {
 		height: 24em;
 	}
+	.partner h2 {
+		font-size: 1.25em;
+	
+		width: 75%;
+		padding-right: 0.25em;
+}
+	.partner p {
+	}
+	.partner, #about .section {
+		padding-left: 0;
+	}
+	.partner p {
+		padding: 0em 0em 1em 0em;
+	
+		width: 75%;
+		font-size: 0.9em;
+}
 }
 @media screen and (max-width: 445px) { 
 	#logo img {
