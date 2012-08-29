@@ -368,7 +368,7 @@ h1 {
     width: 94%;
     float: left;
     margin-bottom: 2em;
-    padding: 2em 6em 2em 3em;
+    padding: 2em 6em 3em 3em;
     border-top: none;
 }
 #all-projects .project hgroup , #about .section hgroup {
@@ -421,6 +421,20 @@ h1 {
 		padding-right: 3%;
 	}
 }
+@media screen and (max-width: 900px) {
+	#all-projects .project hgroup, #about .section hgroup {
+		width: 100%;
+		float: none;
+	}
+	#all-projects .project, #about .section, #people > li {
+		padding-right: 3em;
+	}
+	#all-projects .project p, 
+	#about .section p {
+		width: 100%;
+		float: none;
+	}
+}
 @media screen and (max-width: 800px) {
 	#introduction p {
 		font-size: 1em;
@@ -438,7 +452,7 @@ h1 {
 		width: 46%;
 		float: left;
 		margin-right: 3%;
-		height: 11em;
+		height: 20em;
 	}
 	#featured-projects {
 		clear: both;
@@ -455,7 +469,7 @@ h1 {
 }
 @media screen and (max-width: 600px) {
 	#upcoming-events li {
-		height: 15em;
+		height: 24em;
 	}
 }
 @media screen and (max-width: 445px) { 
@@ -489,19 +503,24 @@ h1 {
 		width: 100%;
 	}
 	
-	#featured-projects h1 {
+	#main #featured-projects h1 {
 		font-size: 3em;
+	}
+	#container #main h1 {
+		margin-left: 0;
+		text-align: center;
+		padding-left: 0;
+		padding-right: 0;
 	}
 	 .project {
 		padding: 2em;
 	}
 	.project h2 {
-		font-size: 3.5em;
-	
+		font-size: 3em;
 		color: #443E3F;
 	}
-	.project h3 {
-		font-size: 1.1em;
+	#all-projects .project h3, .project h3 {
+		font-size: 1.25em;
 	}
 	.project p {
 		font-size: 1em;
@@ -509,7 +528,6 @@ h1 {
 	
 	#footer h1 {
 		font-size: 3em;
-	
 		margin-bottom: 0.5em;
 	}
 }
