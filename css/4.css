@@ -49,7 +49,7 @@ hgroup + p {
 	height: 8em;
 	margin: 1em 0 1em 2%;
 }
-#callout, .project, .partner, #about .section, #sponsors .sponsor, #people >li {
+#callout, .project, .partner, #about .section, #sponsors .sponsor, #people {
 	background-color: #FCFCFC;
 	color: #363232;
 	padding: 1.5em 1em 1.25em 1.5em;
@@ -181,7 +181,7 @@ p, h3, h4, h5, h6, li {
 #container {
 	padding-bottom: 2em;
 }
-#featured-projects .project, .partner, #about .section, #sponsors .sponsor, #people > li {
+#featured-projects .project, .partner, #about .section, #sponsors .sponsor, #people {
 	margin-bottom: 2em;
 	float: left;
 	margin-top: 0;
@@ -303,7 +303,7 @@ h1 {
     font-size: 1.2em;
 }
 
-.partner, #about .section, #sponsors .sponsor, #people > li {
+.partner, #about .section, #sponsors .sponsor, #people {
     border-left: 4px solid #4D919C;
     width: 94%;
     display: inline-block;
@@ -376,7 +376,7 @@ ul.bulleted li {
 }
 #all-projects .project, 
 #about .section, 
-#people > li {
+#people {
     width: 94%;
     float: left;
     margin-bottom: 2em;
@@ -447,7 +447,7 @@ ul.bulleted li {
 	}
 	#all-projects .project,
 	#about .section, 
-	#people > li {
+	#people {
 		padding-right: 3em;
 	}
 	#all-projects .project p, 
@@ -565,7 +565,7 @@ ul.bulleted li {
 	}
 	#all-projects .project, 
 	#about .section, 
-	#people > li {
+	#people {
 		padding: 1.75em;
 	}
 	.project h2, #about .section h2 {
