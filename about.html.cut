@@ -1,0 +1,117 @@
+
+			<div id="team" class="cf">
+				<h1>Our Team</h1>
+				<ul id="people">
+                    <!--
+                    <li>
+						<h4>Spark</h4>
+						<h5 class="role">The Mascot</h5>
+                    </li>
+                    -->
+					<li>
+						<h4>Amy Quispe</h4>
+						<h5 class="role">The Director</h5>
+						<h6 class="major">Computer Science, 2013</h6>
+						<!-- <img src="" alt="Amy Quispe"/> -->
+						<ul class="social-links">
+							<li class="email">amy@scottylabs.org</li>
+                            <li class="facebook"><a href="http://www.facebook.com/amy.quispe" >Facebook</a></li>
+							<li class="linkedin"><a href="http://www.linkedin.com/in/amyquispe" >LinkedIn</a></li>
+							<li class="twitter"><a href="http://www.twitter.com/amyquispe" >Twitter</a></li>
+                            <li class="googleplus"><a href="http://plus.google.com/100523810376335283165" >Google+</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>Jeff Cooper</h4>
+						<h5 class="role">The Chief Operating Officer</h5>
+						<h6 class="major">Computer Science, 2014</h6>
+						<!-- <img src="" alt="Jeff Cooper"/> -->
+						<ul class="social-links">
+							<li class="email">jeff@scottylabs.org</li>
+                            <li class="facebook"><a href="http://www.facebook.com/JeffDCooper" >Facebook</a></li>
+							<li class="linkedin"><a href="http://www.linkedin.com/in/thejeffcooper" >LinkedIn</a></li>
+							<li class="twitter"><a href="http://www.twitter.com/thejeffcooper" >Twitter</a></li>
+                            <li class="googleplus"><a href="http://plus.google.com/103940127060478554930" >Google+</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>Kellie Medlin</h4>
+						<h5 class="role">The Chief Technical Officer</h5>
+						<h6 class="major">Computer Science, 2014</h6>
+						<!-- <img src="" alt="Kellie Medlin"/>
+                        <p></p>
+                        -->
+						<ul class="social-links">
+							<li class="email">kellie@scottylabs.org</li>
+                            <li class="facebook"><a href="http://www.facebook.com/kmmedlin" >Facebook</a></li>
+							<li class="linkedin"><a href="http://www.linkedin.com/pub/kellie-medlin/43/9b5/aa3" >LinkedIn</a></li>
+                            <!-- <li class="twitter"><a href="http://www.twitter.com/" >Twitter</a></li> -->
+                            <li class="googleplus"><a href="http://plus.google.com/113755598339242405890" >Google+</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>Drew Inglis</h4>
+						<h6 class="major">Information Systems, 2014</h6>
+						<h5 class="role"></h5>
+						<!-- 
+						<img src="" alt="Drew Inglis"/>
+                        <p></p>
+                        -->
+						<ul class="social-links">
+							<li class="email">drew@scottylabs.org</li>
+                            <li class="facebook"><a href="http://www.facebook.com/drew.inglis" >Facebook</a></li>
+							<li class="linkedin"><a href="http://www.linkedin.com/in/drewinglis" >LinkedIn</a></li>
+							<li class="twitter"><a href="http://www.twitter.com/drewinglis" >Twitter</a></li>
+                            <li class="googleplus"><a href="http://plus.google.com/112270092221621997239" >Google+</a></li>
+						</ul>			
+					</li>
+					<li>
+						<h4>Julia Teitelbaum</h4>
+						<h6 class="major">Information Systems & Human-Computer Interaction, 2014</h6>
+						<h5 class="role"></h5>
+						<!-- 
+						<img src="" alt="Julia Teitelbaum"/>
+                        <p></p>
+                        -->
+						<ul class="social-links">
+							<li class="email">julia@scottylabs.org</li>
+                            <li class="facebook"><a href="http://www.facebook.com/julialt" >Facebook</a></li>
+							<li class="linkedin"><a href="http://www.linkedin.com/in/juliateitelbaum" >LinkedIn</a></li>
+							<li class="twitter"><a href="http://www.twitter.com/julialete" >Twitter</a></li>
+                            <li class="googleplus"><a href="http://plus.google.com/109078428373903693294" >Google+</a></li>
+						</ul>			
+					</li>
+					<li>
+						<h4>Quintin Carlson</h4>
+						<h6 class="major">Social and Decision Sciences, 2014</h6>
+						<h5 class="role"></h5>
+						<!-- 
+						<img src="" alt="Quintin Carlson"/>
+                        <p></p>
+                        -->
+						<ul class="social-links">
+							<li class="email">quintin@scottylabs.org</li>
+                            <li class="facebook"><a href="http://www.facebook.com/qccarlson" >Facebook</a></li>
+							<li class="linkedin"><a href="http://www.linkedin.com/pub/quintin-carlson/28/623/325" >LinkedIn</a></li>
+							<li class="twitter"><a href="http://www.twitter.com/quintincarlson" >Twitter</a></li>
+                            <li class="googleplus"><a href="http://plus.google.com/117135506976992403444" >Google+</a></li>
+						</ul>			
+					</li>
+					<li>
+						<h4>Ryhan Hassan</h4>
+						<h6 class="major">Computer Science, 2014</h6>
+						<h5 class="role"></h5>
+						<!-- 
+						<img src="" alt="Ryhan Hassan"/>
+                        <p></p>
+                        -->
+						<ul class="social-links">
+							<li class="email">ryhan@scottylabs.org</li>
+                            <li class="facebook"><a href="http://www.facebook.com/ryhanh" >Facebook</a></li>
+							<li class="linkedin"><a href="http://www.linkedin.com/pub/ryhan-hassan/24/b3a/622" >LinkedIn</a></li>
+							<li class="twitter"><a href="http://www.twitter.com/ryhanhassan" >Twitter</a></li>
+                            <li class="googleplus"><a href="http://plus.google.com/110274302645570024518" >Google+</a></li>
+						</ul>			
+					</li>
+				</ul>
+			</div>
