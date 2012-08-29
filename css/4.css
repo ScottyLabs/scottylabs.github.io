@@ -26,6 +26,12 @@ body > div {
 a {
 	color: #116D82;
 }
+h4 {
+	margin-top: 0.66em;
+}
+hgroup + p {
+	margin-top: 1em;
+}
 #header {
 		padding: 0px 0 0.25em 0;	
 
@@ -276,7 +282,7 @@ h1 {
 #footer {
     background-color: #423E3F;
     padding: 1em;
-    height: 18em;
+    height: 20em;
 }
 #footer div {
     float: left;
@@ -366,10 +372,11 @@ ul.bulleted li {
 	clear: both;
 }
 #all-projects .project {
-    font-size: 0.75em;
 	border-left: 4px solid #EA3F23;
 }
-#all-projects .project, #about .section, #people > li {
+#all-projects .project, 
+#about .section, 
+#people > li {
     width: 94%;
     float: left;
     margin-bottom: 2em;
@@ -433,22 +440,27 @@ ul.bulleted li {
 	}
 }
 @media screen and (max-width: 900px) {
-	#all-projects .project hgroup, #about .section hgroup {
+	#all-projects .project hgroup, 
+	#about .section hgroup {
 		width: 100%;
 		float: none;
 	}
-	#all-projects .project, #about .section, #people > li {
+	#all-projects .project,
+	#about .section, 
+	#people > li {
 		padding-right: 3em;
 	}
 	#all-projects .project p, 
-	#about .section p {
+	.project ul,
+	#about .section p,
+	.section ul	{
 		width: 100%;
 		float: none;
 	}
 	.partner h2, .partner p {
 		width: 77%;
 	}
-	.partner, #about .section {
+	.partner {
 		padding-left: 0;
 	}
 	.partner p {
@@ -486,6 +498,9 @@ ul.bulleted li {
 		width: 96%;
 		padding: 2.5em 3em;
 	}
+	.page h1, #featured-projects h1, #upcoming-events h1 {
+		padding-left: 3%;
+	}
 }
 @media screen and (max-width: 600px) {
 	#upcoming-events li {
@@ -493,13 +508,12 @@ ul.bulleted li {
 	}
 	.partner h2 {
 		font-size: 1.25em;
-	
 		width: 75%;
 		padding-right: 0.25em;
 }
 	.partner p {
 	}
-	.partner, #about .section {
+	.partner {
 		padding-left: 0;
 	}
 	.partner p {
@@ -549,20 +563,29 @@ ul.bulleted li {
 		padding-left: 0;
 		padding-right: 0;
 	}
-	 .project {
-		padding: 2em;
+	#all-projects .project, 
+	#about .section, 
+	#people > li {
+		padding: 1.75em;
 	}
-	.project h2 {
+	.project h2, #about .section h2 {
 		font-size: 3em;
 		color: #443E3F;
 	}
-	#all-projects .project h3, .project h3 {
+	#all-projects .project h3, 
+	.project h3,
+	#about .section h3
+	{
 		font-size: 1.25em;
 	}
-	.project p {
+	.project p,
+	#about .section p	{
 		font-size: 1em;
 	}
-	
+	ul.bulleted li {
+		font-size: 0.9em;
+		margin-left: 2em;
+	}
 	#footer h1 {
 		font-size: 3em;
 		margin-bottom: 0.5em;
