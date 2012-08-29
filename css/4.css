@@ -169,7 +169,7 @@ h2 {
 	font-size: 2em;
 }
 
-p, h3, h4, h5, h6 {
+p, h3, h4, h5, h6, li {
 	font-family: 'PT Sans', sans-serif;
 }
 #container {
@@ -310,6 +310,11 @@ h1 {
 #about .section {
         border-color: #116D82;
     }	
+ul.bulleted li {
+	list-style-type: disc;
+	font-size: 1.25em;
+	margin-left: 3em;
+}
 .partner h2 {
     margin-bottom: 0;
     margin-left: 14%;
@@ -381,7 +386,10 @@ h1 {
     padding-left: 0;
     margin-left: 0;
 }
-#all-projects .project p, #about .section p {
+#all-projects .project p, 
+.project ul,
+#about .section p,
+.section ul {
     width: 58.8%;
     float: right;
 }
