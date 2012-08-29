@@ -190,7 +190,7 @@ p, h3, h4, h5, h6, li {
 }
 .project {
     border-top: 6px solid #EA3F23;
-    padding: 2.5em 6em;
+    padding: 2.5em 6em 3.5em;
     margin-left: 3%;
 }
 .project h2 , #about .section h2 {
@@ -222,7 +222,6 @@ p, h3, h4, h5, h6, li {
 	color: #116D82;
 }
 .project p {
-	font-size: 1.5em;
 	margin: 0.5em 0em;
 	line-height: 1.5;
 }
@@ -398,6 +397,14 @@ ul.bulleted li {
     padding-left: 0;
     margin-left: 0;
 }
+.project p, 
+.project ul,
+#about .section p,
+.section ul,
+#partners p,
+#partners ul  {
+	font-size: 1.2em;
+}
 #all-projects .project p, 
 .project ul,
 #about .section p,
@@ -405,7 +412,6 @@ ul.bulleted li {
     width: 58.8%;
     float: right;
 }
-
 @media screen and (min-width: 1180px) {
 	#logo {
 		font-size: 1.1em;
