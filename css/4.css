@@ -509,7 +509,9 @@ ul.bulleted li {
 		width: 96%;
 		padding: 2.5em 3em;
 	}
-	.page h1, #featured-projects h1, #upcoming-events h1 {
+	.page h1, 
+	#featured-projects h1, 
+	#upcoming-events h1 {
 		padding-left: 3%;
 	}
 }
@@ -527,9 +529,8 @@ ul.bulleted li {
 	.partner {
 		padding-left: 0;
 	}
-	.partner p {
+	#partners-page #partners .partner p {
 		padding: 0em 0em 1em 0em;
-	
 		width: 75%;
 		font-size: 0.9em;
 }
@@ -560,7 +561,8 @@ ul.bulleted li {
 		height: auto;
 	}
 	
-	#featured-projects, #upcoming-events {
+	#featured-projects, 
+	#upcoming-events {
 		float:none;
 		width: 100%;
 	}
@@ -579,7 +581,8 @@ ul.bulleted li {
 	#people > li {
 		padding: 1.75em;
 	}
-	.project h2, #about .section h2 {
+	.project h2, 
+	#about .section h2 {
 		font-size: 3em;
 		color: #443E3F;
 	}
