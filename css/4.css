@@ -194,7 +194,7 @@ p, h3, h4, h5, h6, li {
     margin-left: 3%;
 }
 .project h2 , #about .section h2 {
-	font-size: 5em;
+	font-size: 4em;
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
@@ -322,7 +322,6 @@ h1 {
     }	
 ul.bulleted li {
 	list-style-type: disc;
-	font-size: 1.25em;
 	margin-left: 3em;
 }
 .partner h2, .partner p {
@@ -393,7 +392,7 @@ ul.bulleted li {
 }
 #all-projects .project h3 {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     padding-left: 0;
     margin-left: 0;
 }
@@ -403,7 +402,7 @@ ul.bulleted li {
 .section ul,
 #partners p,
 #partners ul  {
-	font-size: 1.2em;
+	font-size: 1.05em;
 }
 #all-projects .project p, 
 .project ul,
@@ -412,7 +411,7 @@ ul.bulleted li {
     width: 58.8%;
     float: right;
 }
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 1330px) {
 	#logo {
 		font-size: 1.1em;
 		width: 36%;
@@ -425,7 +424,7 @@ ul.bulleted li {
 	}
 }
 
-@media screen and (max-width: 1180px) { 
+@media screen and (max-width: 1330px) { 
 	#logo {
 		display: block;
 	}
@@ -438,8 +437,9 @@ ul.bulleted li {
 		margin: -1em 2% 2em 2%;
 	}
 	#footer {
-		height: auto;
+		height:32em;
 		font-size: 0.8em;
+		padding-top: 0;
 	}
 	#footer div {
 		float: none;
@@ -448,6 +448,14 @@ ul.bulleted li {
 	}
 	.partner p {
 		padding-right: 4em;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.project h2, #about .section h2 {
+		font-size:3em;
+	}
+	#all-projects .project h3 {
+		font-size: 1.5em;
 	}
 }
 @media screen and (max-width: 900px) {
@@ -467,6 +475,13 @@ ul.bulleted li {
 	.section ul	{
 		width: 100%;
 		float: none;
+	}
+	.project h2, 
+	#about .section h2 {
+		font-size: 4em;
+	}
+	#all-projects .project h3 {
+		font-size: 1.5em;
 	}
 	.partner h2, .partner p {
 		width: 77%;
@@ -523,8 +538,21 @@ ul.bulleted li {
 		font-size: 1.25em;
 		width: 75%;
 		padding-right: 0.25em;
-}
-	.partner p {
+	}
+	.project h2, #about .section h2 {
+		font-size: 3em;
+	}
+	#about .section h3 {
+		font-size: 1.25em;
+	}
+	#all-projects .project, #about .section, #people > li {
+		padding: 2em 1.75em 2em 2em;
+	}
+	.project p, .project ul, #about .section p, .section ul, #partners p, #partners ul {
+		font-size: 1em;
+	}
+	ul.bulleted li {
+		font-size: 1em;
 	}
 	.partner {
 		padding-left: 0;
@@ -533,7 +561,7 @@ ul.bulleted li {
 		padding: 0em 0em 1em 0em;
 		width: 75%;
 		font-size: 0.9em;
-}
+	}
 }
 @media screen and (max-width: 445px) { 
 	#logo img {
@@ -566,8 +594,10 @@ ul.bulleted li {
 		float:none;
 		width: 100%;
 	}
-	
 	#main #featured-projects h1 {
+		font-size: 3em;
+	}
+	#featured-projects .project h2 {
 		font-size: 3em;
 	}
 	#container #main h1 {
@@ -575,15 +605,19 @@ ul.bulleted li {
 		text-align: center;
 		padding-left: 0;
 		padding-right: 0;
+		font-size: 2em;
 	}
 	#all-projects .project, 
 	#about .section, 
-	#people > li {
-		padding: 1.75em;
+	#people > li,
+	#featured-projects .project 	{
+		padding: 1.25em;
+		font-size:0.9em;
+		padding-top: 1em;
 	}
 	.project h2, 
 	#about .section h2 {
-		font-size: 3em;
+		font-size: 2em;
 		color: #443E3F;
 	}
 	#all-projects .project h3, 
@@ -592,6 +626,12 @@ ul.bulleted li {
 	{
 		font-size: 1.25em;
 	}
+	.partner img {
+		margin-left: 0.75em;
+	}
+	#partners-page #partners .partner p {
+		width: 91%;
+	}
 	.project p,
 	#about .section p	{
 		font-size: 1em;
@@ -599,6 +639,9 @@ ul.bulleted li {
 	ul.bulleted li {
 		font-size: 0.9em;
 		margin-left: 2em;
+	}
+	#footer {
+		padding: 0.15em;
 	}
 	#footer h1 {
 		font-size: 3em;
