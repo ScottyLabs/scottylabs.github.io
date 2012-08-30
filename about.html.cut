@@ -1,4 +1,3 @@
-
 			<div id="team" class="cf">
 				<h1>Our Team</h1>
 				<ul id="people">
@@ -51,7 +50,7 @@
 					</li>
 					<li>
 						<h4>Drew Inglis</h4>
-						<h6 class="major">Information Systems, 2014</h6>
+						<h6 class="major">Information Systems & Computer Science, 2014</h6>
 						<h5 class="role"></h5>
 						<!-- 
 						<img src="" alt="Drew Inglis"/>
