@@ -1,0 +1,180 @@
+    /* colors
+     * red = rgb(234,63,35)
+     * orange = rgb(242, 104, 33)
+     * lightblue = rgb(77,145,156)
+     * darkblue = rgb(17,109,130)
+     */
+    
+    
+    body {
+    	background-size: 30em;
+    	height:100%;
+    	font-size: 16px;
+    	background-position: top left;
+    }
+    
+    body > div {
+    	width: 100%;
+    	margin: 0 auto;
+    	background-image: url('../img/styling/bg-grid.png');
+    }
+    
+    #header {
+            padding: 0px 0 0.25em 0;	
+    
+            border-top: 6px solid #423E3F;
+}
+    #logo, #nav {
+    	padding: 0;
+    }
+    #logo {
+    	display: inline-block;
+    
+    	margin-left: 1.5%;
+    	margin-top: 1em;
+}
+#logo img {
+        height: 8em;
+        margin: 1em 0 1em 2%;
+    }
+#callout {
+    	float: right;
+    	width: 59%;
+    	background-color: #FCFCFC;
+    	color: #363232;
+    	padding: 1.5em 1em 1.25em 1.5em;
+    	margin-top: 3em;
+    	border-left: 3px solid #F26821;
+		-webkit-box-shadow:  0px 2px 2px 0px #bbb;
+        box-shadow:  0px 2px 2px 0px #bbb;
+}
+#callout p {
+	margin: 0;
+}
+    #nav {
+    	background-color: rgba(242, 104, 33, 0.41);
+    	display: block;
+    	width: 100%;
+    
+}
+    #nav li {
+    	display: block;
+    	font-size: 1.4em;
+    
+    	text-align: center;
+    	width: 25%;
+    	margin: 0;
+    	padding: 0.33em 0;
+    	float: left;
+    
+    	box-shadow: inset -1px 2px 3px rgba(63, 63, 63, 0.41);
+}
+    #nav li.current, #nav li:hover {
+    
+    box-shadow: -2px 2px 2px 2px rgba(119, 119, 119, 0.17);
+}
+    #nav li a {
+    	margin: 0 auto;
+    	display: inline-block;
+    	text-decoration: none;
+    	color: white;
+    	font-weight: normal;
+    }
+    #nav #home {
+    	background-color: #F26821; 
+    }
+    #nav #projects {
+    	background-color: #EA3F23;
+    }
+    #nav #about {
+    	background-color: #116D82;
+    }
+    #nav #partners {
+    	background-color: #4D919C;
+    }
+    
+    #main, #aside {
+    
+    }
+    #introduction {
+    
+}
+    #introduction, #introduction h1 {
+    	color: rgb(77,145,156);
+    }
+    
+    #introduction h1 {
+    	background-color: rgba(0, 0, 0, 0.54);
+    	padding: 0.3em 3%;
+    	display: none;
+    }
+    
+    #introduction p {
+        font-size: 2.6em;
+    
+        padding: 1em 3%;
+        background-image: url('../img/styling/bg-grid-lighter.png');
+        color: white;
+        width: 100%;
+        font-family: 'Vitesse Sans Medium';
+}
+    #introduction, #featured-projects {
+    }
+    #aside {
+    	padding: 1em;
+    	background-color: #f7f7f7;
+    	margin-right: 3%;
+    	margin-left: 1%;
+    }
+    #aside h1 {
+        font-size: 1.8em;
+    }
+    h1 {
+    	font-family: 'Vitesse Bold', 'Rockwell', serif;
+    	margin-bottom: 0.66em;
+    }
+    
+    h2 {
+    	font-family: 'Vitesse Book', serif;
+    	font-size: 2em;
+    }
+    
+    p, h3, h4, h5, h6 {
+    	font-family:  'Proxima Nova Rg', 'DejaVu Sans', 'Gotham Book', sans-serif;
+    }
+    .project {
+    	background-color: rgba(77, 145, 156, 0.06);
+    	border: 1em solid rgb(17,109,130);
+    	margin-bottom: 2em;
+    	padding: 2.5em 3.5em;
+    }
+    .project h2 {
+    	font-size: 5em;
+    	text-align: center;
+    }
+    .project h3 {
+    	color: rgb(242, 104, 33); 
+    	font-size: 1.5em;
+    	margin: 1em;
+    	text-align: center;
+    	font-weight: normal;
+    }
+    .project p {
+    	font-size: 1.5em;
+    	margin: 0.5em 0em;
+    	line-height: 1.5;
+    }
+	#phrase1 {
+    color: #F26821;
+}
+#cmu {
+    color: #EA3F23;
+}
+#expertise {
+    color: #116D82;
+    font-size: 0.93em;
+}
+#practical {
+    color: #4D919C;
+    font-size: 0.93em;
+}
