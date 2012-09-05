@@ -238,13 +238,18 @@ p, h3, h4, h5, h6, li {
     margin-top: -0.8em;
     padding-right: 1em;
 }
+#upcoming-events li,
+#team .person {
+    background-color: #fcfcfc;
+    border-top: 3px solid #116D82;
+    position: relative;
+    width: 30.66%;
+    float: left;
+    margin-left: 1%;
+}
 #upcoming-events li {
-    background-color: #FFFFFF;
     padding-bottom: 0.45em;
     margin-bottom: 1em;
-    border-top: 3px solid #116D82;
-    
-    position: relative;
 }
 #upcoming-events li .date {
     margin: 0;
@@ -345,7 +350,9 @@ ul.bulleted li {
     max-width: 14%;
     z-index: 0;
 }
-.page h1, #featured-projects h1, #upcoming-events h1 {
+.page h1, 
+#featured-projects h1, 
+#upcoming-events h1 {
     color: #FCFCFC;
     padding-bottom: 0.3em;
     margin-top: -0.25em;
@@ -408,6 +415,30 @@ ul.bulleted li {
     width: 58.8%;
     float: right;
 }
+
+.person img {
+    float:left;
+    margin-right: 1em
+;
+    height: 32%;
+}
+.person h3{
+    padding-top: 0.3em;
+    font-size: 2em;
+}
+.person h4 {
+    font-size: 1em;
+    margin-top: 0.5em;
+}
+
+#team #amy {
+    margin-left: 3%;
+}
+
+#team {
+	padding-bottom: 4em;
+}
+
 @media screen and (min-width: 1330px) {
 	#logo {
 		font-size: 1.1em;
@@ -452,6 +483,12 @@ ul.bulleted li {
 	}
 	#all-projects .project h3 {
 		font-size: 1.5em;
+	}
+	.person {
+		font-size: 0.8em;
+	}
+	.person img{
+		height: 20%;
 	}
 }
 @media screen and (max-width: 900px) {
@@ -524,6 +561,21 @@ ul.bulleted li {
 	#featured-projects h1, 
 	#upcoming-events h1 {
 		padding-left: 3%;
+	}
+}
+@media screen and (max-width: 630px) {
+	#team .person {
+		margin-left: 2%;
+		width: 29.99%;
+		padding-bottom: 0.5em;
+	}	
+	.person h2, .person h3, .person h4, .person p {
+		padding: 0 5%;
+	}
+	.person img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 0.5em;
 	}
 }
 @media screen and (max-width: 600px) {
@@ -642,5 +694,22 @@ ul.bulleted li {
 	#footer h1 {
 		font-size: 3em;
 		margin-bottom: 0.5em;
+	}
+	#team {
+		padding-bottom: 2em;
+	}
+	#team .person {
+		width: 94%;
+		margin-bottom: 1em;
+		padding-bottom: 0;
+		font-size: 0.9em;
+	}
+	.person h3 {
+		margin-top: 0.33em;
+	}
+	#team .person img {
+		height: 25%;
+		width: auto;
+		margin-bottom: 0;
 	}
 }
