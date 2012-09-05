@@ -243,9 +243,12 @@ p, h3, h4, h5, h6, li {
     background-color: #fcfcfc;
     border-top: 3px solid #116D82;
     position: relative;
-    width: 30.66%;
     float: left;
     margin-left: 1%;
+}
+
+#team .person {
+    width: 30.66%;
 }
 #upcoming-events li {
     padding-bottom: 0.45em;
