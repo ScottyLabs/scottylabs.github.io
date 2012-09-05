@@ -284,7 +284,6 @@ h1 {
 #footer {
     background-color: #423E3F;
     padding: 1em;
-    height: 20em;
 }
 #footer div {
     float: left;
@@ -435,7 +434,6 @@ ul.bulleted li {
 		margin: -1em 2% 2em 2%;
 	}
 	#footer {
-		height:32em;
 		font-size: 0.8em;
 		padding-top: 0;
 	}
