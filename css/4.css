@@ -86,7 +86,7 @@ hgroup + p {
 }
 #nav li a {
 	margin: 0 auto;
-	display: inline-block;
+	display: block;
 	text-decoration: none;
 	color: white;
 	font-weight: 700;
