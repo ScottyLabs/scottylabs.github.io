@@ -1,0 +1,2 @@
+auto: true
+exclude: [Rakefile, README.md, .gitignore, Gemfile, Gemfile.lock, CNAME]

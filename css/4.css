@@ -33,7 +33,7 @@ hgroup + p {
 	margin-top: 1em;
 }
 #header {
-		padding: 0px 0 0.25em 0;	
+		padding: 0px 0 0.25em 0;
 
 }
 #logo, #nav {
@@ -92,7 +92,7 @@ hgroup + p {
 	font-weight: 700;
 }
 #nav #home {
-	background-color: #F26821; 
+	background-color: #F26821;
 }
 #nav #projects {
 	background-color: #EA3F23;
@@ -116,7 +116,7 @@ hgroup + p {
 	color: #4D919C;
 }
 
-#introduction {    	
+#introduction {
 	background-image: url("../img/content/th-hackers.jpg");
 	height: 32em;
 	background-size: cover;
@@ -184,7 +184,7 @@ p, h3, h4, h5, h6, li {
 	float: left;
 	margin-top: 0;
 	width: 100%;
-	
+
 }
 .project {
     border-top: 6px solid #EA3F23;
@@ -209,7 +209,7 @@ p, h3, h4, h5, h6, li {
 	width: 100%;
 }
 .project h3, #about .section h3 {
-	color: #EA3F23; 
+	color: #EA3F23;
 	font-size: 1.5em;
 	margin: 1em;
 	text-align: center;
@@ -323,8 +323,8 @@ h1 {
     padding-bottom: 2em;
 }
 #about .section {
-        border-color: #116D82;
-    }	
+	border-color: #116D82;
+    }
 ul.bulleted li {
 	list-style-type: disc;
 	margin-left: 3em;
@@ -353,8 +353,8 @@ ul.bulleted li {
     max-width: 14%;
     z-index: 0;
 }
-.page h1, 
-#featured-projects h1, 
+.page h1,
+#featured-projects h1,
 #upcoming-events h1 {
     color: #FCFCFC;
     padding-bottom: 0.3em;
@@ -384,8 +384,8 @@ ul.bulleted li {
 #all-projects .project {
 	border-left: 4px solid #EA3F23;
 }
-#all-projects .project, 
-#about .section, 
+#all-projects .project,
+#about .section,
 #people > li {
     width: 94%;
     float: left;
@@ -403,7 +403,7 @@ ul.bulleted li {
     padding-left: 0;
     margin-left: 0;
 }
-.project p, 
+.project p,
 .project ul,
 #about .section p,
 .section ul,
@@ -411,7 +411,7 @@ ul.bulleted li {
 #partners ul  {
 	font-size: 1.05em;
 }
-#all-projects .project p, 
+#all-projects .project p,
 .project ul,
 #about .section p,
 .section ul {
@@ -455,7 +455,7 @@ ul.bulleted li {
 	}
 }
 
-@media screen and (max-width: 1330px) { 
+@media screen and (max-width: 1330px) {
 	#logo {
 		display: block;
 	}
@@ -495,24 +495,24 @@ ul.bulleted li {
 	}
 }
 @media screen and (max-width: 900px) {
-	#all-projects .project hgroup, 
+	#all-projects .project hgroup,
 	#about .section hgroup {
 		width: 100%;
 		float: none;
 	}
 	#all-projects .project,
-	#about .section, 
+	#about .section,
 	#people > li {
 		padding-right: 3em;
 	}
-	#all-projects .project p, 
+	#all-projects .project p,
 	.project ul,
 	#about .section p,
 	.section ul	{
 		width: 100%;
 		float: none;
 	}
-	.project h2, 
+	.project h2,
 	#about .section h2 {
 		font-size: 4em;
 	}
@@ -560,8 +560,8 @@ ul.bulleted li {
 		width: 96%;
 		padding: 2.5em 3em;
 	}
-	.page h1, 
-	#featured-projects h1, 
+	.page h1,
+	#featured-projects h1,
 	#upcoming-events h1 {
 		padding-left: 3%;
 	}
@@ -571,7 +571,7 @@ ul.bulleted li {
 		margin-left: 2%;
 		width: 29.99%;
 		padding-bottom: 0.5em;
-	}	
+	}
 	.person h2, .person h3, .person h4, .person p {
 		padding: 0 5%;
 	}
@@ -614,7 +614,7 @@ ul.bulleted li {
 		font-size: 0.9em;
 	}
 }
-@media screen and (max-width: 445px) { 
+@media screen and (max-width: 445px) {
 	#logo img {
 		height: auto;
 		max-width: 96%;
@@ -639,8 +639,8 @@ ul.bulleted li {
 		float: none;
 		height: auto;
 	}
-	
-	#featured-projects, 
+
+	#featured-projects,
 	#upcoming-events {
 		float:none;
 		width: 100%;
@@ -658,20 +658,20 @@ ul.bulleted li {
 		padding-right: 0;
 		font-size: 2em;
 	}
-	#all-projects .project, 
-	#about .section, 
+	#all-projects .project,
+	#about .section,
 	#people > li,
-	#featured-projects .project 	{
+	#featured-projects .project	{
 		padding: 1.25em;
 		font-size:0.9em;
 		padding-top: 1em;
 	}
-	.project h2, 
+	.project h2,
 	#about .section h2 {
 		font-size: 2em;
 		color: #443E3F;
 	}
-	#all-projects .project h3, 
+	#all-projects .project h3,
 	.project h3,
 	#about .section h3
 	{
