@@ -1,6 +1,16 @@
 ---
 layout: default
 title: ScottyLabs - About
+people:
+  - {name: Julia Teitelbaum, photo_url: juliat.jpg, title: Director}
+  - {name: Jeff Cooper, photo_url: jeff.jpg, title: Director of Operations}
+  - {name: Drew Inglis, photo_url: drew.jpg, title: Director of Technology}
+  - {name: Amy Quispe, photo_url: amy.jpg, title: Founder, Social Chair}
+  - {name: Quintin Carlson, photo_url: quintin.jpg, title: Head Event Coordinator }
+  - {name: Lester Kakol, photo_url: lester.jpg, title: Core Team Member}
+  - {name: Kellie Medlin, photo_url: kellie.jpg, title: Core Team Member}
+  - {name: Max Hawkins, photo_url: max.jpg, title: Core Team Member}
+  - {name: Bryan Wade, photo_url: bryan.jpg, title: Core Team Member}
 ---
 
 <div id="about-page" class="page">
@@ -25,45 +35,43 @@ title: ScottyLabs - About
       <hgroup>
         <h2>The Backstory</h2>
       </hgroup>
-                <p>
-                    In the summer of 2011, Vinay Vemuri showed Amy Quispe a side project that
-                    had involved entering tons of data by hand. Amy proposed an idea: do the
-                    hard work once. Together they launched the project that would become
-                    <a href="http://apis.scottylabs.org">APIs@CMU</a>, an effort to compile all
-                    of the university's publicly available data into a machine-readable format
-                    and, with the cooperation of the administration, provide that data to
-                    students and faculty.
-                </p>
-                <p>
-                    Over the course of the Fall 2011 semester, the project grew to include
-                    more people and the group added more projects that fit our goal of
-                    promoting innovation in practical ways. In November of 2011, we started
-                    planning for the launch of the APIs@CMU project.  Vinay suggested that the
-                    best way to encourage people to use the new API was to host a Hackathon,
-                    and <a href="http://www.tartanhacks.com/" >TartanHacks</a> was born.
-                    With two projects and a small group of dedicated members, we decided that
-                    our group needed a name.  We chose ScottyLabs.
-                </p>
+        <p>
+          In the summer of 2011, Vinay Vemuri showed Amy Quispe a side project that
+          had involved entering tons of data by hand. Amy proposed an idea: do the
+          hard work once. Together they launched the project that would become
+          <a href="http://apis.scottylabs.org">APIs@CMU</a>, an effort to compile all
+          of the university's publicly available data into a machine-readable format
+          and, with the cooperation of the administration, provide that data to
+          students and faculty.
+        </p>
+        <p>
+          Over the course of the Fall 2011 semester, the project grew to include
+          more people and the group added more projects that fit our goal of
+          promoting innovation in practical ways. In November of 2011, we started
+          planning for the launch of the APIs@CMU project.  Vinay suggested that the
+          best way to encourage people to use the new API was to host a Hackathon,
+          and <a href="http://www.tartanhacks.com/" >TartanHacks</a> was born.
+          With two projects and a small group of dedicated members, we decided that
+          our group needed a name.  We chose ScottyLabs.
+        </p>
     </div>
-        </div>
-        <div id="team" class="cf">
+  </div>
+
+  <div id="team" class="cf">
     <hgroup>
       <h1>The Team</h1>
     </hgroup>
-    <div class="person cf" id="amy">
-      <img src="img/content/juliat.jpg" alt="Julia Teitelbaum"/>
-      <h3>Julia Teitelbaum</h3>
-      <h4>Director</h4>
+
+    <div style="margin:0 3% 0 2%;">
+      {% for person in page.people %}
+        <div class="person cf">
+          <img src="img/content/{{ person.photo_url }}" alt="{{ person.name }}"/>
+          <h3>{{ person.name }}</h3>
+          <h4>{{ person.title }}</h4>
+        </div>
+      {% endfor %}
+      <div style="clear:both;"></div>
     </div>
-    <div class="person cf">
-      <img src="img/content/jeff.jpg" alt="Jeff Cooper"/>
-      <h3>Jeff Cooper</h3>
-      <h4>Director of Operations</h4>
-    </div>
-    <div class="person cf">
-      <img src="img/content/drew.jpg" alt="Drew Inglis"/>
-      <h3>Drew Inglis</h3>
-      <h4>Directory of Technology</h4>
-    </div>
+
   </div>
 </div>
