@@ -263,7 +263,13 @@ p, h3, h4, h5, h6, li {
 
 .person img {
   height: 32%;
-  max-width:100%;
+  max-width:45%;
+}
+
+.person .dossier
+{
+    float: right;
+    max-width: 45%;
 }
 
 .person h3{

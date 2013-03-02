@@ -28,8 +28,22 @@ people:
       <hgroup>
         <h2>Our Mission</h2>
       </hgroup>
-      <h3><em>We use our technical expertise to promote innovation in practical ways.</em></h3>
-      <p>ScottyLabs is a student-run group on Carnegie Mellon’s Pittsburgh campus. We strive to use our technical expertise to promote innovation in practical ways. For example, we are developing <a href="http://apis.scottylabs.org">APIs for educational data at Carnegie Mellon</a>, so that students can easily build applications using that data. In addition, we are working with schools across the country to create a nationwide standard for APIs for university data. In early 2012, we also founded and organized Carnegie Mellon’s largest hackathon, <a href="http://www.tartanhacks.com/">TartanHacks.</a></p>
+      <h3>
+          <em>
+              ScottyLabs is a student-run, interdisciplinary organization at Carnegie Mellon
+              University dedicated to removing barriers between students’ ideas and their
+              implementation.
+          </em>
+      </h3>
+      <p>
+           We connect students with the skills and tools they need to create things and foster an
+           atmosphere of curiosity-driven innovation on campus. For example, we are developing 
+          <a href="http://apis.scottylabs.org">APIs for educational data at Carnegie Mellon</a>, so
+          that students can easily build applications using that data. In addition, we are working
+          with schools across the country to create a nationwide standard for APIs for university
+          data. In early 2012, we also founded and organized Carnegie Mellon’s largest hackathon,
+          <a href="http://www.tartanhacks.com/">TartanHacks.</a>
+      </p>
     </div>
 
     <div class="section">
@@ -65,11 +79,13 @@ people:
 
     <div style="margin:0 3% 0 2%;">
       {% for person in page.people %}
-        <div class="person cf">
+      <div class="person cf">
           <img src="img/content/{{ person.photo_url }}" alt="{{ person.name }}"/>
-          <h3>{{ person.name }}</h3>
-          <h4>{{ person.title }}</h4>
-        </div>
+          <div class="dossier" >
+            <h3>{{ person.name }}</h3>
+            <h4>{{ person.title }}</h4>
+          </div>
+          </div>
       {% endfor %}
       <div style="clear:both;"></div>
     </div>
