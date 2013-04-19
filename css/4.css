@@ -48,7 +48,7 @@ hgroup + p {
 	height: 8em;
 	margin: 1em 0 1em 2%;
 }
-#callout, .project, .partner, #about .section, #sponsors .sponsor, #people >li {
+#callout, .project, .partner, #about .section, #donate .section, #sponsors .sponsor, #people >li {
 	background-color: #FCFCFC;
 	color: #363232;
 	padding: 1.5em 1em 1.25em 1.5em;
@@ -178,7 +178,7 @@ p, h3, h4, h5, h6, li {
 #container {
 	padding-bottom: 2em;
 }
-#featured-projects .project, .partner, #about .section, #sponsors .sponsor, #people > li {
+#featured-projects .project, .partner, #about .section, #donate .section, #sponsors .sponsor, #people > li {
 	margin-bottom: 2em;
 	float: left;
 	margin-top: 0;
@@ -190,13 +190,13 @@ p, h3, h4, h5, h6, li {
     padding: 2.5em 6em 3.5em;
     margin-left: 3%;
 }
-.project h2 , #about .section h2 {
+.project h2, #donate .section h2, #about .section h2 {
 	font-size: 4em;
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
 }
-#about .section h2 {
+#about .section h2, #donate .section h2 {
 	font-size: 3.75em;
 }
 /* TEAM
@@ -207,7 +207,7 @@ p, h3, h4, h5, h6, li {
 #featured-projects .project h2 {
 	width: 100%;
 }
-.project h3, #about .section h3 {
+.project h3, #about .section h3, #donate .section h3 {
 	color: #EA3F23;
 	font-size: 1.5em;
 	margin: 1em;
@@ -215,7 +215,7 @@ p, h3, h4, h5, h6, li {
 	font-weight: normal;
 	font-style: italic;
 }
-#about .section h3 {
+#about .section h3, #donate .section h3 {
 	color: #116D82;
 }
 .project p {
@@ -347,7 +347,7 @@ h1 {
     font-size: 1.2em;
 }
 
-.partner, #about .section, #sponsors .sponsor, #people > li {
+.partner, #about .section, #donate .section, #sponsors .sponsor, #people > li {
     border-left: 4px solid #4D919C;
     width: 94%;
     display: inline-block;
@@ -357,7 +357,7 @@ h1 {
     padding-top: 2em;
     padding-bottom: 2em;
 }
-#about .section {
+#about .section, #donate .section {
 	border-color: #116D82;
     }
 ul.bulleted li {
@@ -409,7 +409,7 @@ ul.bulleted li {
 #featured-projects h1, #upcoming-events h1 {
 	width: 100%;
 }
-#about-page h1, #upcoming-events h1 {
+#donate-page h1, #about-page h1, #upcoming-events h1 {
 	background-color: #116D82;
 }
 #partners-page h1 {
@@ -421,14 +421,15 @@ ul.bulleted li {
 }
 #all-projects .project,
 #about .section,
-#people > li {
+#people > li,
+#donate .section {
     width: 94%;
     float: left;
     margin-bottom: 2em;
     padding: 2em 6em 3em 3em;
     border-top: none;
 }
-#all-projects .project hgroup , #about .section hgroup {
+#all-projects .project hgroup , #about .section hgroup, #donate .section hgroup {
     width: 37%;
     float: left;
 }
@@ -441,6 +442,7 @@ ul.bulleted li {
 .project p,
 .project ul,
 #about .section p,
+#donate .section p,
 .section ul,
 #partners p,
 #partners ul  {
@@ -449,7 +451,8 @@ ul.bulleted li {
 #all-projects .project p,
 .project ul,
 #about .section p,
-.section ul {
+.section ul,
+#donate .section .detail {
     width: 58.8%;
     float: right;
 }
@@ -493,7 +496,7 @@ ul.bulleted li {
 	}
 }
 @media screen and (max-width: 1024px) {
-	.project h2, #about .section h2 {
+	.project h2, #about .section h2, #donate .section h2 {
 		font-size:3em;
 	}
 	#all-projects .project h3 {
@@ -508,24 +511,28 @@ ul.bulleted li {
 }
 @media screen and (max-width: 900px) {
 	#all-projects .project hgroup,
-	#about .section hgroup {
+	#about .section hgroup,
+  #donate .section hgroup {
 		width: 100%;
 		float: none;
 	}
 	#all-projects .project,
 	#about .section,
+  #donate .section,
 	#people > li {
 		padding-right: 3em;
 	}
 	#all-projects .project p,
 	.project ul,
 	#about .section p,
+  #donate .section .detail,
 	.section ul	{
 		width: 100%;
 		float: none;
 	}
 	.project h2,
-	#about .section h2 {
+	#about .section h2,
+  #donate .section h2 {
 		font-size: 4em;
 	}
 	#all-projects .project h3 {
@@ -602,16 +609,16 @@ ul.bulleted li {
 		width: 75%;
 		padding-right: 0.25em;
 	}
-	.project h2, #about .section h2 {
+	.project h2, #about .section h2, #donate .section h2 {
 		font-size: 3em;
 	}
-	#about .section h3 {
+	#about .section h3, #donate .section h3 {
 		font-size: 1.25em;
 	}
-	#all-projects .project, #about .section, #people > li {
+	#all-projects .project, #about .section, #donate .section, #people > li {
 		padding: 2em 1.75em 2em 2em;
 	}
-	.project p, .project ul, #about .section p, .section ul, #partners p, #partners ul {
+	.project p, .project ul, #about .section p, #donate .section p, .section ul, #partners p, #partners ul {
 		font-size: 1em;
 	}
 	ul.bulleted li {
@@ -672,19 +679,22 @@ ul.bulleted li {
 	}
 	#all-projects .project,
 	#about .section,
-	#people > li,
+	#donate .section,
+  #people > li,
 	#featured-projects .project	{
 		padding: 1.25em;
 		font-size:0.9em;
 		padding-top: 1em;
 	}
 	.project h2,
+  #donate .section h2,
 	#about .section h2 {
 		font-size: 2em;
 		color: #443E3F;
 	}
 	#all-projects .project h3,
 	.project h3,
+  #donate .section h3,
 	#about .section h3
 	{
 		font-size: 1.25em;
@@ -696,7 +706,8 @@ ul.bulleted li {
 		width: 91%;
 	}
 	.project p,
-	#about .section p	{
+	#donate .section p,
+  #about .section p	{
 		font-size: 1em;
 	}
 	ul.bulleted li {
