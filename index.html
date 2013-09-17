@@ -2,6 +2,15 @@
 layout: default
 title: ScottyLabs
 description: ScottyLabs is a student-run, interdisciplinary organization at Carnegie Mellon University dedicated to removing barriers between students’ ideas and their implementation.
+events:
+-
+  name: "Meet ScottyLabs"
+  date: "Thursday 9/19, 6-7pm"
+  description: "Want to join ScottyLabs? Come find out more about what we do! See <a href=\"https://www.facebook.com/events/419112204867564/\">our Facebook event</a> for more information."
+-
+  name: "Make CMU"
+  date: "Every Saturday, 2-5pm"
+  description: "Come to the Studio for Creative Inquiry in the College of Fine Arts building every Saturday for meetings of <a href=\"http://makecmu.com/\">Make CMU,</a> CMU's weekly Hacker Space. Come surround yourself with awesome people and work on whatever strikes your fancy."
 ---
 
 <div id="container" class="cf">
@@ -13,26 +22,19 @@ description: ScottyLabs is a student-run, interdisciplinary organization at Carn
     <div id="upcoming-events">
       <h1>Upcoming Events</h1>
       <ol id="events">
-<!--
-        <li>
-          <h2 class="date">January 25-26</h2>
-          <h3>TartanHacks 2013</h3>
-          <p>TartanHacks is a hackathon designed for people who have great ideas for cool things. Last year, TartanHacks became the biggest hackathon on CMU’s campus (and the only student-run one). We had an awesome time last year (see <a href="http://www.flickr.com/photos/anirudhkoul/sets/72157629419601487/">photos from last year</a> and read about <a href="http://2012.tartanhacks.com/the-tartanhacks-2012-winners/">last year's winning hacks</a></p>
-
-          <p>Registration will open in the first week of the Spring 2013 semester. Leading up to the hackathon, we’ll be hosting student-led, skill-building talks. At the hackathon, we’ll have expert mentors, great food, and, well, fun. More details will be available at <a href="http://tartanhacks.com">tartanhacks.com</a> leading up to the hackathon.</p>
-        </li>
--->
-        <li>
-          <h2 class="date">Every Saturday</h2>
-          <h3>Make CMU</h3>
-          <p>
-            Come to the Studio for Creative Inquiry in the College of Fine Arts (CFA) building every
-            saturday for meetings of <a href="http://www.makecmu.com/">Make CMU</a>, Carneige
-            Mellon's weekly Hacker Space.  Come surround yourself with awesome people and work on
-            whatever strikes your fancy.
-          </p>
-        </li>
+        {% for event in page.events %}
+          <li>
+            <h2 class="date">{{ event.date }}</h2>
+            <h3>{{ event.name }}</h3>
+            <p>
+              {{ event.description }}
+            </p>
+          </li>
+        {% endfor %}
       </ol>
+      <p>
+        <a href="https://www.google.com/calendar/embed?src=fv2nedcct7rninrcs9a56fq3l8%40group.calendar.google.com&ctz=America/New_York">Our Google Calendar</a>
+      </p>
     </div>
     <div id="featured-projects">
       <h1>What do we do?</h1>

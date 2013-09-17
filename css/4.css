@@ -241,8 +241,6 @@ p, h3, h4, h5, h6, li {
     background-color: #fcfcfc;
     border-top: 3px solid #116D82;
     position: relative;
-    margin-left: 1%;
-    float:left;
 }
 
 #upcoming-events li {
@@ -727,7 +725,7 @@ ul.bulleted li {
 
 .team_container.yes_chrome{
 
-	
+
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -762,8 +760,8 @@ ul.bulleted li {
 }
 
 .person.yes_chrome{
-	
-	
+
+
     -webkit-box-ordinal-group: 1;
     -moz-box-ordinal-group: 1;
     -webkit-order: 0;
