@@ -1,10 +1,8 @@
 body {
 	height:100%;
-	font-size: 16px;
   color: #3f3f3f;
-  font-size: 21px;
-  line-height: 25.2px;
-  font-family: "source sans pro";
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
 }
 
@@ -20,17 +18,13 @@ a:active {
   color: #999;
 }
 
-#container {
-  width: 400px;
-  text-align: center;
+article {
   margin: 100px auto;
-
-  /*flexboxes (not required0 */)
-  display:flex;
-  flex-direction: column;
+  text-align: center;
+  width: 400px;
 }
 
-img {
-  width: 300px;
+.logo {
   margin: auto;
+  width: 300px;
 }
