@@ -1,5 +1,5 @@
 body {
-	height:100%;
+  height:100%;
   color: #3f3f3f;
   font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -18,13 +18,115 @@ a:active {
   color: #999;
 }
 
+h2 {
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin: 1rem 0;
+}
+
+h4, h5 {
+  margin: 0;
+}
+
+h5 {
+  font-style: italic;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0.5rem;
+}
+
 article {
-  margin: 100px auto;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+header {
   text-align: center;
-  width: 400px;
+}
+
+nav > ul, section > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul {
+  text-align: center;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
 }
 
 .logo {
   margin: auto;
   width: 300px;
+}
+
+.back-top {
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}
+
+.person {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding-right: 5rem;
+}
+
+.person h4 {
+  margin-bottom: 0.5rem;
+}
+
+.person img {
+  width: 200px;
+}
+
+.person p {
+  margin-top: 0;
+}
+
+@media(max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+
+  nav > ul > li {
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  article {
+    margin: 1rem;
+  }
+
+  .logo {
+    width: 250px;
+  }
+
+  .person {
+    display: block;
+    padding: 0;
+  }
+
+  .back-top {
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 300px) {
+  .logo {
+    width: 200px;
+  }
 }
