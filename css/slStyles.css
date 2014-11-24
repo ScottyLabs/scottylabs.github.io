@@ -264,7 +264,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-image: url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
@@ -298,7 +298,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 250px;
+        padding-top: 400px;
         padding-bottom: 300px;
     }
 
