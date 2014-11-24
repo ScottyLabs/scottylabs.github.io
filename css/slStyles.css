@@ -265,7 +265,8 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: fixed;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-bg.png);
+    min-height: 500px;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
