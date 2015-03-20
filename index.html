@@ -1,63 +1,407 @@
-<!doctype html>
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
     <meta charset="utf-8">
-    <title>Crash Course | ScottyLabs</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ScottyLabs</title>
     <meta name="description" content="ScottyLabs is a student-run, interdisciplinary organization at Carnegie Mellon University dedicated to removing barriers between students’ ideas and their implementation.">
-    <meta name="author" content="Tom Shen">
-    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" href="img/favicon.png">
-    <link rel=stylesheet href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-    <link rel=stylesheet href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400italic,400|700">
-    <link rel=stylesheet href="css/style.css">
-  </head>
-  <body>
-    <article>
-      <header id="top">
-        <img class="logo" src="img/crashCourseLogo.jpg">
-        <!--<h1>ScottyLabs</h1>-->
-      </header>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#schedule">Schedule</a></li>
-          <li><a href="#register">Register</a></li>
-        </ul>
-      </nav>
-      <section id="about">
-        <h2>About</h2>
-        <p>
-          It is entirely student led and student taught, so you'll get the opportunity to work closely with people who actually use what they teach at hackathons, school, and in their careers.
-        </p>
-        <p>
-          We have meetings on Wednesdays from 5:00pm to 6:00pm in the <a href="http://www.cmu.edu/university-center/about/spaces/pake.html">UC Pake Room</a>. Feel free to stop in, hear what we're working on, and help out!
-        </p>
-        <p>
-          To learn more about our organization, and about how you can get involved, email <a href="mailto:info@scottylabs.org">info@scottylabs.org</a>. To learn about how you can sponsor ScottyLabs, email <a href="mailto:sponsor@scottylabs.org">sponsor@scottylabs.org</a>. You can also find us on <a href="https://www.facebook.com/ScottyLabs">Facebook</a> and <a href="https://github.com/scottylabs">Github</a>.
-        </p>
-        <div class="back-top"><a href="#top">Back to Top ↑</a></div>
-      </section>
-      
-      <section id="schedule">
-        <h2>Schedule</h2>
-        Sat.
-        Sun.
-      </section>
+    <meta name="keywords" content="CMU,ScottyLabs,technology,student organization,sponsorship">
+    <meta name="author" content="Lois Jingqi Yang">
 
-      <section id="register">
-        <h2>Register</h2>
-        Google Form goes Here (Inline?)
-      </section>
-    </article>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link href="css/slStyles.css" rel="stylesheet">
+
+    <!-- ScottyLabs Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img class="logo" src="img/logo.png" style="width:100px;padding-top:0px;padding-bottom:10px"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li><a class="page-scroll" href="#about">About</a></li>
+                    <li><a class="page-scroll" href="#events">Events</a></li>
+                    <li><a class="page-scroll" href="#portfolio">Projects</a></li>
+                    <li><a class="page-scroll" href="#team">Members</a></li>
+                    <li><a class="page-scroll" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-heading text-center">About</h2>
+                    </br>
+                    </br>
+                    <p class="text-muted col-md-6 col-md-offset-3">ScottyLabs is a technical club at Carnegie Mellon University. We organize educational events to help people learn how to make things, host workshops to give students the opportunity to work on projects outside of class, and develop applications and services for the campus community.</p>
+                </div>
+            </div>
+            <br />
+            <!---->
+        </div>
+    </section>
+
+    
+
+    <!-- Events Section -->
+    <section id="events">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Events</h2>
+                    <h3 class="section-subheading text-muted">Upcoming events.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/events/tartanHacks.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h2><a href="http://tartanhacks.com/">TartanHacks</a></h2>
+                                    <h3 class="subheading">Feb. 6,  2015</h3>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="timeline-content text-muted">TartanHacks is CMU's premier hackathon, an event where a bunch of people get together in teams for a fixed amount of time to make something cool. We provide food (that's better than pizza), mentors, and a space to hack for 24 hours. You provide the cool ideas and turn them into reality.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/events/startupTour.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h2>Startup Tour 3.0</h2>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="timeline-content text-muted">Startup Tour is a chance for you to visit the offices of Pittsburgh startups, meet CMU alums who have started companies, and network with local entrepreneurs.</p>
+                                    <h3 class="subheading">Oct. 17, 2014</h3>
+                                    <p class="timeline-content text-muted">AlphaLab Gear, Duolingo</p>
+                                    <h3 class="subheading">Sept. 9, 2014</h3>
+                                    <p class="timeline-content text-muted">AlphaLab, BuleBelt Technologies</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/events/crashCourse.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h2>Crash Course</h2>
+                                    <h3 class="subheading">Nov. 01, 2014</h3>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="timeline-content text-muted">CrashCourse is an event where expert student volunteers will teach other students new skills. There are workshops about everything from HTML and CSS to computer security to Raspberry Pi hacking.</p>
+                                    <h4 class="subheading">More:</h4>
+                                    <p class="timeline-content text-muted"><a href="http://crashcourse.scottylabs.org/">Crash Course website</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Archived Events</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Projects</h2>
+                    <h3 class="section-subheading text-muted">We make web applications.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="https://apis.scottylabs.org/" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/APIs.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>APIs @ CMU</h4>
+                        <p class="text-muted">software hack</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="http://print.scottylabs.org/" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/print.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Print @ CMU</h4>
+                        <p class="text-muted">software hack</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Members</h2>
+                    <h3 class="section-subheading text-muted">Our Amazing Team</h3>
+                </div>
+            </div>
+            <div class="row">
+                <!-- put exex board pics first-->
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/mark.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="http://mcvellaa.github.io/">Mark Vella</a></h4>
+                        <p class="text-muted">Director of ScottyLabs</p>
+                        <ul class="list-inline social-buttons">
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/jake.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="http://jez.io/">Jake Zimmerman</a></h4>
+                        <p class="text-muted">Director of Technology</p>
+                        <ul class="list-inline social-buttons">
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/monisha.jpg" class="img-responsive img-circle"  alt="">
+                        <h4>Monisha Gopal</h4>
+                        <p class="text-muted">Director of Finance</p>
+                        <ul class="list-inline social-buttons">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/lois.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="http://www.jingqiyang-lois.com">Lois Yang</a></h4>
+                        <p class="text-muted">Director of Communications</p>
+                        <ul class="list-inline social-buttons">
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/oscar.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="http://bezi.io">Oscar Bezi</a></h4>
+                        <p class="text-muted">Friendly Neighborhood Linux User</p>
+                        <ul class="list-inline social-buttons">
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/rehan.jpg" class="img-responsive img-circle"  alt="">
+                        <h4><a href="http://www.rehanbutt.com">Rehan Butt</a></h4>
+                        <p class="text-muted">Designer</p>
+                        <ul class="list-inline social-buttons">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/justin.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="http://www.justingallag.com">Justin Gallagher</a></h4>
+                        <p class="text-muted">Cool hacker</p>
+                        <ul class="list-inline social-buttons">
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/westin.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="http://westinlohne.com">Westin Lohne</a></h4>
+                        <p class="text-muted">Designer</p>
+                        <ul class="list-inline social-buttons">
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/taylor.jpg" class="img-responsive img-circle" style="width=100px;height=100px" alt="">
+                        <h4><a href="twp.io">Taylor Poulos</a></h4>
+                        <p class="text-muted">Designer</p>
+                        <ul class="list-inline social-buttons">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/tom.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="http://www.tomshen.me">Tom Shen</a></h4>
+                        <p class="text-muted">Cool hacker</p>
+                        <ul class="list-inline social-buttons">
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/frances.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Frances Tso</h4>
+                        <p class="text-muted">Another cool hacker</p>
+                        <ul class="list-inline social-buttons">
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/min.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="http://min-zhou.com">Min Zhou</a></h4>
+                        <p class="text-muted">Designer</p>
+                        <ul class="list-inline social-buttons">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-darkest-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-heading text-center">Contact Us</h2>
+                    </br>
+                    <div class="row col-md-8 col-md-offset-2">
+                        <div class="col-md-6 text-center">
+                            <span class="fa-stack fa-3x">
+                                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fa fa-comment fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <h4 class="service-heading text-center">Meetings</h4>
+                            <p class="text-muted">We have meetings on Wednesdays from 5:00 p.m. to 6:00 p.m. in the <a href="http://www.cmu.edu/university-center/about/spaces/pake.html">CUC Pake</a> room. Feel free to stop in, hear what we're working on, and help out!</p>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <span class="fa-stack fa-3x">
+                                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fa fa-info fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <h4 class="service-heading text-center">More</h4>
+                            <p class="text-muted">To learn more about our organization, and about how you can get involved, email <a href="mailto:info@scottylabs.org">info@scottylabs.org</a>. To learn about how you can sponsor ScottyLabs, email <a href="mailto:sponsor@scottylabs.org">sponsor@scottylabs.org</a>. You can also find us on <a href="https://www.facebook.com/ScottyLabs">Facebook</a> and <a href="https://github.com/scottylabs">Github</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Follow us on: </span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="http://www.facebook.com/ScottyLabs"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/scottylabs"><i class="fa fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="copyright"> ScottyLabs | <a href="http://cmu.edu">Carnegie Mellon University</a> </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/script.js"></script>
+
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-54783750-1', 'auto');
-      ga('send', 'pageview');
-
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-54783750-1', 'auto');ga('send', 'pageview');
     </script>
-  </body>
+</body>
+
 </html>
