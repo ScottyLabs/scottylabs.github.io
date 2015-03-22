@@ -19,10 +19,7 @@
 
     <!-- ScottyLabs Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic|Roboto+Slab:400,100,300,700|Kaushan+Script|Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -90,73 +87,79 @@
         </div>
     </section>
 
-    
-
     <!-- Events Section -->
     <section id="events">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Events</h2>
-                    <h3 class="section-subheading text-muted">Upcoming events.</h3>
+                    <h3 class="section-subheading text-muted">Upcoming and past events.</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/events/tartanHacks.png" alt="">
+                <!--WDW-->
+                <div class="col-sm-6 events-item">
+                    <a href="https://scottylabs.org/wdw" class="events-link" data-toggle="modal">
+                        <div class="events-hover">
+                            <div class="events-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
                             </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h2><a href="http://tartanhacks.com/">TartanHacks</a></h2>
-                                    <h3 class="subheading">Feb. 6,  2015</h3>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="timeline-content text-muted">TartanHacks is CMU's premier hackathon, an event where a bunch of people get together in teams for a fixed amount of time to make something cool. We provide food (that's better than pizza), mentors, and a space to hack for 24 hours. You provide the cool ideas and turn them into reality.</p>
-                                </div>
+                        </div>
+                        <img src="img/events/wdw.png" class="img-responsive" alt="Tartan Hacks">
+                    </a>
+                    <div class="events-caption">
+                        <h4>WebDevWeekend</h4>
+                        <p class="text-muted">A weekend of web dev workshops</p>
+                    </div>
+                </div>
+
+                <!--TARTANHACKS-->
+                <div class="col-sm-6 events-item">
+                    <a href="https://tartanhacks.com/" class="events-link" data-toggle="modal">
+                        <div class="events-hover">
+                            <div class="events-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
                             </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/events/startupTour.png" alt="">
+                        </div>
+                        <img src="img/events/tartanHacks.png" class="img-responsive" alt="Tartan Hacks">
+                    </a>
+                    <div class="events-caption">
+                        <h4>TartanHacks</h4>
+                        <p class="text-muted">CMU's Largest Hackathon</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!--CRASHCOURSE-->
+                <div class="col-sm-6 events-item">
+                    <a href="http://crashcourse.scottylabs.org" class="events-link" data-toggle="modal">
+                        <div class="events-hover">
+                            <div class="events-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
                             </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h2>Startup Tour 3.0</h2>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="timeline-content text-muted">Startup Tour is a chance for you to visit the offices of Pittsburgh startups, meet CMU alums who have started companies, and network with local entrepreneurs.</p>
-                                    <h3 class="subheading">Oct. 17, 2014</h3>
-                                    <p class="timeline-content text-muted">AlphaLab Gear, Duolingo</p>
-                                    <h3 class="subheading">Sept. 9, 2014</h3>
-                                    <p class="timeline-content text-muted">AlphaLab, BuleBelt Technologies</p>
-                                </div>
+                        </div>
+                        <img src="img/events/crashCourse.png" class="img-responsive" alt="Tartan Hacks">
+                    </a>
+                    <div class="events-caption">
+                        <h4>Crash Course</h4>
+                        <p class="text-muted">A series of tech-related workshops</p>
+                    </div>
+                </div>
+
+                <!--STARTUPTOURS-->
+                <div class="col-sm-6 events-item">
+                    <a href="#portfolioModal1" class="events-link" data-toggle="modal">
+                        <div class="events-hover">
+                            <div class="events-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
                             </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/events/crashCourse.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h2>Crash Course</h2>
-                                    <h3 class="subheading">Nov. 01, 2014</h3>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="timeline-content text-muted">CrashCourse is an event where expert student volunteers will teach other students new skills. There are workshops about everything from HTML and CSS to computer security to Raspberry Pi hacking.</p>
-                                    <h4 class="subheading">More:</h4>
-                                    <p class="timeline-content text-muted"><a href="http://crashcourse.scottylabs.org/">Crash Course website</a></p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Archived Events</h4>
-                            </div>
-                        </li>
-                    </ul>
+                        </div>
+                        <img src="img/events/startUpTours.png" class="img-responsive" alt="Tartan Hacks">
+                    </a>
+                    <div class="events-caption">
+                        <h4>Startup Tours</h4>
+                        <p class="text-muted">meetup with local entrepreneurs</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -172,7 +175,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="https://apis.scottylabs.org/" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -186,7 +189,7 @@
                         <p class="text-muted">software hack</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="http://print.scottylabs.org/" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -355,7 +358,7 @@
                                 <i class="fa fa-info fa-stack-1x fa-inverse"></i>
                             </span>
                             <h4 class="service-heading text-center">More</h4>
-                            <p class="text-muted">To learn more about our organization, and about how you can get involved, email <a href="mailto:info@scottylabs.org">info@scottylabs.org</a>. To learn about how you can sponsor ScottyLabs, email <a href="mailto:sponsor@scottylabs.org">sponsor@scottylabs.org</a>. You can also find us on <a href="https://www.facebook.com/ScottyLabs">Facebook</a> and <a href="https://github.com/scottylabs">Github</a>.</p>
+                            <p class="text-muted">To learn more about our organization, and about how you can get involved, email <a href="mailto:info@scottylabs.org">info@scottylabs.org</a>. To learn about how you can sponsor ScottyLabs, email <a href="mailto:sponsor@scottylabs.org">sponsor@scottylabs.org</a>. You can also find us on <a href="https://www.facebook.com/ScottyLabs">Facebook</a> and <a href="https://github.com/scottylabs">GitHub</a>.</p>
                         </div>
                     </div>
                 </div>
@@ -383,7 +386,34 @@
             </div>
         </div>
     </footer>
-
+    <!--MODALS-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Startup Tours</h2>
+                            <hr class="star-primary">
+                            <p>Startup Tour is a chance for you to visit the offices of Pittsburgh startups, meet CMU alums who have started companies, and network with local entrepreneurs.</p>
+                            <h3>OCT. 17, 2014</h3>
+                            <p>AlphaLab Gear, Duolingo</p>
+                            <h3>SEPT. 9, 2014</h3>
+                            <p>AlphaLab, BuleBelt Technologies</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MODALS [END]-->
 
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
