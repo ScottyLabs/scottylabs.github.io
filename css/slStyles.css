@@ -934,3 +934,6 @@ body {
     webkit-tap-highlight-color: #2EA0B1;
 }
 
+.displaynone {
+  display: none;
+}
