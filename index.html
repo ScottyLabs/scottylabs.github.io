@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 
@@ -407,167 +409,19 @@
                 </div>
             </div>
             <div class="row">
-                <!-- put exex board pics first -->
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/jackie.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Jackie Gaston</h4>
-                        <p class="text-muted">Director</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
+                {% for member in site.data.team %}
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img src="img/team/{{ member.img-name }}.jpg" class="img-responsive img-circle" alt="member image" />
+                            {% if member.website %}
+                                <h4><a href="{{ member.website }}">{{ member.name }}</a></h4>
+                            {% else %}
+                                <h4>{{ member.name }}</h4>
+                            {% endif %}
+                            <p class="text-muted">{{ member.bio }}</p>
+                        </div>
                     </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/scott.jpg" class="img-responsive img-circle" alt="">
-                        <h4><a href="https://github.com/skrulcik">Scott Krulcik</a></h4>
-                        <p class="text-muted">Director of Technology</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/serena.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Serena Wang</h4>
-                        <p class="text-muted">Director of Finance</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/shalom.jpg" class="img-responsive img-circle" alt="">
-                        <h4><a href="http://yiblet.me">Shalom Yiblet</a></h4>
-                        <p class="text-muted">Director of Operations</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/jason.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Jason Chang</h4>
-                        <p class="text-muted">Director of Communications</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-                <!-- End of Exec board -->
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/mark.jpg" class="img-responsive img-circle" alt="">
-                        <h4><a href="https://mcvellaa.github.io/">Mark Vella</a></h4>
-                        <p class="text-muted">Former President, Current Social Planner</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/monisha.jpg" class="img-responsive img-circle"  alt="">
-                        <h4>Monisha Gopal</h4>
-                        <p class="text-muted">Moni$wag</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/jake.jpg" class="img-responsive img-circle" alt="">
-                        <h4><a href="https://jez.io/">Jake Zimmerman</a></h4>
-                        <p class="text-muted">Core Member</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/lois.jpg" class="img-responsive img-circle" alt="">
-                        <h4><a href="http://www.jingqiyang-lois.com">Lois Yang</a></h4>
-                        <p class="text-muted">Designer</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/min.jpg" class="img-responsive img-circle" alt="">
-                        <h4><a href="http://min-zhou.com">Min Zhou</a></h4>
-                        <p class="text-muted">Designer</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/angel.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Angel Zhou</h4>
-                        <p class="text-muted">Shines Bright Like A Plat 2</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/bryan.jpg" class="img-responsive img-circle" alt="">
-                        <h4><a href="http://bryanyan.github.io">Bryan Yan</a></h4>
-                        <p class="text-muted">IT Guy, Lover of Aphrodite</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/emily.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Emily Newman</h4>
-                        <p class="text-muted">CUPS Stacker</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/ian.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Ian Lo</h4>
-                        <p class="text-muted">I'd Vote For Him</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/frances.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Frances Tso</h4>
-                        <p class="text-muted">Cool hacker</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-sm-offset-4">
-                    <div class="team-member">
-                        <img src="img/team/justin.jpg" class="img-responsive img-circle" alt="">
-                        <h4><a href="https://justinchuby.github.io">Justin Chu</a></h4>
-                        <p class="text-muted">Amiable Hacker</p>
-                        <ul class="list-inline social-buttons">
-                        </ul>
-                    </div>
-                </div>
-
+                 {% endfor %}
             </div>
         </div>
     </section>

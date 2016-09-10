@@ -1,0 +1,57 @@
+- name: Jackie Gaston
+  bio: Director
+  img-name: jackie
+- name: Scott Krulcik
+  bio: Director of Technology
+  img-name: scott
+  website: 'https://github.com/skrulcik'
+- name: Serena Wang
+  bio: Director of Finance
+  img-name: serena
+- name: Shalom Yiblet
+  bio: Director of Operations
+  img-name: shalom
+  website: 'http://yiblet.me'
+- name: Jason Chang
+  bio: Director of Communications
+  img-name: jason
+- name: Mark Vella
+  bio: 'Social Chair & Former Director'
+  img-name: mark
+  website: 'https://mcvellaa.github.io/'
+- name: Monisha Gopal
+  bio: 'Moni$wag'
+  img-name: monisha
+- name: Jake Zimmerman
+  bio: 'Core Member'
+  img-name: jake
+  website: 'https://jez.io/'
+- name: Lois Yang
+  bio: Designer
+  img-name: lois
+  website: 'http://www.jingqiyang-lois.com'
+- name: Min Zhou
+  bio: Designer
+  img-name: min
+  website: 'http://min-zhou.com'
+- name: Oscar Bezi
+  bio: Friendly Neighborhood Linux User
+  img-name: oscar
+  website: 'http://bezi.io'
+- name: Angel Zhou
+  bio: 'Shines Bright Like A Plat 2'
+  img-name: angel
+- name: Bryan Yan
+  bio: IT Guy, Lover of Aphrodite
+  img-name: bryan
+  website: 'http://bryanyan.github.io'
+- name: Emily Newman
+  bio: CUPS Stacker
+  img-name: emily
+- name: Ian Lo
+  bio: 'I''d Vote For Him'
+  img-name: ian
+- name: Justin Chu
+  bio: Amiable Hacker
+  img-name: justin
+  website: 'https://justinchuby.github.io'
