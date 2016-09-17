@@ -1,6 +1,7 @@
 - name: Zhan Dong (Patrick)
   bio: Programmer, Game Lover
   img-name: patrick
+<<<<<<< 2f8423334da1aa38421afba34697d4360ab80974
 - name: Michael Liao
   bio: Pokemon Lover
 - name: Mattthew Lipari
@@ -39,3 +40,8 @@
 - name: Monica Pardeshi
   bio: Scotty Puppy
   img-name: mpardesh
+=======
+- name: Monica Pardeshi
+  bio: Scotty Puppy
+  img-name: mpardesh.jpeg
+>>>>>>> pic
