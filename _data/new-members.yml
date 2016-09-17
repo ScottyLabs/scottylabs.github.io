@@ -14,7 +14,23 @@
   bio: greetings and salutations!
   img-name: Aditi
 - name: Beata Purvina
+  bio: New Member
   img-name: beata
 - name: Kai Lung
-  bio: Everyone's Favorite Canadian
+  bio: "Everyone's Favorite Canadian"
   img-name: klung
+- name: Mahima Arya
+  bio: Pug Lover
+  img-name: mahima
+- name: Eugene Han
+  bio: Free-spirited Mathematician
+  img-name: eugeneh
+  website: 'http://eugenehan.github.io'
+- name: Lizzy Board
+  bio: New to ScottyLabs
+  img-name: lizzy
+- name: Murtaza Saif
+  bio: Team Caffeine
+  img-name: murtaza
+- name: Charles Yuan
+  bio: Programmer
