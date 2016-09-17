@@ -384,7 +384,11 @@
                 {% for member in site.data.team %}
                     <div class="col-sm-4">
                         <div class="team-member">
-                            <img src="img/team/{{ member.img-name }}.jpg" class="img-responsive img-circle" alt="member image" />
+                            {% if member.img-name %}
+                                <img src="img/team/{{ member.img-name }}.jpg" class="img-responsive img-circle" alt="member image" />
+                            {% else %}
+                                <img src="img/scotty-circle.svg" class="img-responsive img-circle" alt="member image" />
+                            {% endif %}
                             {% if member.website %}
                                 <h4><a href="{{ member.website }}">{{ member.name }}</a></h4>
                             {% else %}
@@ -407,7 +411,11 @@
                     {% for member in site.data.new-members %}
                         <div class="col-sm-4">
                             <div class="team-member">
-                                <img src="img/team/{{ member.img-name }}.jpg" class="img-responsive img-circle" alt="member image" />
+                                {% if member.img-name %}
+                                    <img src="img/team/{{ member.img-name }}.jpg" class="img-responsive img-circle" alt="member image" />
+                                {% else %}
+                                    <img src="img/scotty-circle.svg" class="img-responsive img-circle" alt="member image" />
+                                {% endif %}
                                 {% if member.website %}
                                     <h4><a href="{{ member.website }}">{{ member.name }}</a></h4>
                                 {% else %}
