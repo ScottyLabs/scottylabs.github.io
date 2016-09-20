@@ -1,6 +1,23 @@
 - name: Zhan Dong (Patrick)
   bio: Programmer, Game Lover
   img-name: patrick
+- name: Michael Liao
+  bio: Pokemon Lover
+- name: Mattthew Lipari
+  bio: Designated Driver
+  img-name: matt
+- name: Tegjeev Singh
+  bio: VP of Newcomers
+  img-name: tegjeev
+  website: 'https://www.facebook.com/zuck?fref=ts'
+- name: Aditi Hebbar
+  bio: greetings and salutations!
+  img-name: Aditi
+- name: Beata Purvina
+  img-name: beata
+- name: Kai Lung
+  bio: Everyone's Favorite Canadian
+  img-name: klung
 - name: Mahima Arya
   bio: Pug Lover
   img-name: mahima
