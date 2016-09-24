@@ -1,1 +1,20 @@
-img-name: jeremy
+- name: Zhan Dong (Patrick)
+  bio: Programmer, Game Lover
+  img-name: patrick
+- name: Michael Liao
+  bio: Pokemon Lover
+- name: Mattthew Lipari
+  bio: Designated Driver
+  img-name: matt
+- name: Tegjeev Singh
+  bio: VP of Newcomers
+  img-name: tegjeev
+  website: 'https://www.facebook.com/zuck?fref=ts'
+- name: Aditi Hebbar
+  bio: greetings and salutations!
+  img-name: Aditi
+- name: Beata Purvina
+  img-name: beata
+- name: Jeremy Leung
+  bio: Snooker World Champion 2016
+  img-name: jeremy
