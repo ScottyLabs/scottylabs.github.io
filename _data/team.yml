@@ -38,9 +38,6 @@
   bio: Friendly Neighborhood Linux User
   img-name: oscar
   website: 'http://bezi.io'
-- name: Angel Zhou
-  bio: 'Shines Bright Like A Plat 2'
-  img-name: angel
 - name: Bryan Yan
   bio: IT Guy, Lover of Aphrodite
   img-name: bryan
@@ -55,4 +52,13 @@
   bio: Amiable Hacker
   img-name: justin
   website: 'https://justinchuby.github.io'
-  
+- name: Mattthew Lipari
+  bio: Designated Driver
+  img-name: matt
+- name: Kai Lung
+  bio: "Everyone's Favorite Canadian"
+  img-name: klung
+- name: Eugene Han
+  bio: Free-spirited Mathematician
+  img-name: eugeneh
+  website: 'http://eugenehan.github.io'
