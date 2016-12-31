@@ -88,8 +88,8 @@
                     <li><a class="page-scroll" href="#about">About</a></li>
                     <li><a class="page-scroll" href="#events">Events</a></li>
                     <li><a class="page-scroll" href="#portfolio">Projects</a></li>
-                    <li><a class="page-scroll" href="#team">Members</a></li>
                     <li><a class="page-scroll" href="#contact">Contact</a></li>
+                    <li><a class="page-scroll" href="#team">Members</a></li>
                     <li><a class="page-scroll" href="#calendar">Calendar</a></li>
                 </ul>
             </div>
@@ -263,40 +263,6 @@
         </div>
     </section>
 
-    <!-- Team Section -->
-    <section id="team">
-        <div class="container">
-            <!-- Core Members -->
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Members</h2>
-                    <h3 class="section-subheading text-muted">Our Amazing Team</h3>
-                </div>
-            </div>
-            <div class="row">
-                {% for member in site.data.team %}
-                    <div class="col-sm-4">
-                        <div class="team-member">
-                            {% if member.img-name %}
-                                <div class="team-img-wrapper" data-lazy-load-image="img/team/{{ member.img-name }}.jpg"></div>
-                            {% else %}
-                                <div class="team-img-wrapper">
-                                    <img src="img/scotty-circle.svg" class="img-responsive img-circle" alt="member image" />
-                                </div>
-                            {% endif %}
-                            {% if member.website %}
-                                <h4><a href="{{ member.website }}">{{ member.name }}</a></h4>
-                            {% else %}
-                                <h4>{{ member.name }}</h4>
-                            {% endif %}
-                            <p class="text-muted">{{ member.bio }}</p>
-                        </div>
-                    </div>
-                 {% endfor %}
-            </div>
-        </div>
-    </section>
-
     <section id="contact" class="bg-darkest-gray">
         <div class="container">
             <div class="row">
@@ -327,6 +293,40 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <!-- Core Members -->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Members</h2>
+                    <h3 class="section-subheading text-muted">Our Amazing Team</h3>
+                </div>
+            </div>
+            <div class="row">
+                {% for member in site.data.team %}
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            {% if member.img-name %}
+                                <div class="team-img-wrapper" data-lazy-load-image="img/team/{{ member.img-name }}.jpg"></div>
+                            {% else %}
+                                <div class="team-img-wrapper">
+                                    <img src="img/scotty-circle.svg" class="img-responsive img-circle" alt="member image" />
+                                </div>
+                            {% endif %}
+                            {% if member.website %}
+                                <h4><a href="{{ member.website }}">{{ member.name }}</a></h4>
+                            {% else %}
+                                <h4>{{ member.name }}</h4>
+                            {% endif %}
+                            <p class="text-muted">{{ member.bio }}</p>
+                        </div>
+                    </div>
+                 {% endfor %}
             </div>
         </div>
     </section>
