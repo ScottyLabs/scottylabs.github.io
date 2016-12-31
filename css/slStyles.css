@@ -18,12 +18,12 @@ body {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a,
@@ -308,9 +308,9 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 60px;   
+        font-size: 60px;
         font-style: normal;
-        font-weight: 400;    
+        font-weight: 400;
    }
 
     header .intro-text .intro-heading {
@@ -350,9 +350,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -521,13 +519,11 @@ section#about .text-muted {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
 #events .events-item .events-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -660,7 +656,6 @@ section#about .text-muted {
 .timeline .timeline-content{
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -778,21 +773,23 @@ aside.clients img {
     margin: 50px auto;
 }
 
+section#calendar,
 section#contact {
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #212A36;
 }
 
-section#contact .section-heading {
-    color: #fff;
-}
-
-section#contact p {
-    color: #fff;
-}
+section#calendar .section-heading,
+section#calendar h3,
+section#calendar p,
+section#calendar a,
+section#contact .section-heading,
+section#contact p,
 section#contact a {
     color: #fff;
 }
+
 section#contact a:hover,
 a:focus,
 a:active,
@@ -873,7 +870,6 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
