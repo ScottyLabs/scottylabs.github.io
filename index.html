@@ -277,9 +277,11 @@
                     <div class="col-sm-4">
                         <div class="team-member">
                             {% if member.img-name %}
-                                <img src="img/team/{{ member.img-name }}.jpg" class="img-responsive img-circle" alt="member image" />
+                                <div class="team-img-wrapper" data-lazy-load-image="img/team/{{ member.img-name }}.jpg"></div>
                             {% else %}
-                                <img src="img/scotty-circle.svg" class="img-responsive img-circle" alt="member image" />
+                                <div class="team-img-wrapper">
+                                    <img src="img/scotty-circle.svg" class="img-responsive img-circle" alt="member image" />
+                                </div>
                             {% endif %}
                             {% if member.website %}
                                 <h4><a href="{{ member.website }}">{{ member.name }}</a></h4>

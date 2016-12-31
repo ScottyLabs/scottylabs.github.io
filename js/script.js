@@ -24,3 +24,14 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// Adapted from http://stackoverflow.com/a/35090719/3857959
+$(function () {
+    $("[data-lazy-load-image]").each(function (index, element) {
+        var img = new Image();
+        img.src = $(element).data('lazy-load-image');
+        img.className = 'img-responsive img-circle';
+        img.alt = 'member image';
+        $(element).append(img);
+    });
+});

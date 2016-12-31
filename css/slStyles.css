@@ -937,3 +937,7 @@ body {
 .displaynone {
   display: none;
 }
+
+.team-img-wrapper {
+    max-width: 500px;
+}
