@@ -773,6 +773,10 @@ aside.clients img {
     margin: 50px auto;
 }
 
+section {
+    overflow: hidden;
+}
+
 section#calendar,
 section#contact {
     background-position: center;
@@ -937,3 +941,8 @@ body {
 .team-img-wrapper {
     max-width: 500px;
 }
+
+.force-overflow-scroll {
+    overflow: scroll;
+}
+
