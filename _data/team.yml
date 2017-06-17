@@ -1,43 +1,27 @@
-- name: Jackie Gaston
+- name: Serena Wang
   bio: Director
-  img-name: jackie
-- name: Scott Krulcik
+  img-name: serena
+- name: Stephanie You
+  bio: Director of Finance
+  img-name: stephaniey
+- name: Emily Lo
+  bio: Director of Communications
+  img-name: emilylo
+  website: 'http://hiemilylo.github.io/'
+- name: Shalom Yiblet
   bio: Director of Technology
+  img-name: shalom
+- name: Josh Zhanson
+  bio: Director of Events
+  img-name: josh
+- name: Scott Krulcik
+  bio: Former Director of Technology
   img-name: scott
   website: 'https://github.com/skrulcik'
-- name: Serena Wang
-  bio: Director of Finance
-  img-name: serena
-- name: Shalom Yiblet
-  bio: Director of Operations
-  img-name: shalom
-  website: 'http://yiblet.me'
 - name: Jason Chang
-  bio: Director of Communications
+  bio: Former Director of Communications
   img-name: jason
-- name: Mark Vella
-  bio: 'Social Chair & Former Director'
-  img-name: mark
-  website: 'https://mcvellaa.github.io/'
-- name: Monisha Gopal
-  bio: 'Moni$wag'
-  img-name: monisha
-- name: Jake Zimmerman
-  bio: 'Core Member'
-  img-name: jake
-  website: 'https://jez.io/'
-- name: Lois Yang
-  bio: Designer
-  img-name: lois
-  website: 'http://www.jingqiyang-lois.com'
-- name: Min Zhou
-  bio: Designer
-  img-name: min
-  website: 'http://min-zhou.com'
-- name: Oscar Bezi
-  bio: Friendly Neighborhood Linux User
-  img-name: oscar
-  website: 'http://bezi.io'
+  website: 'http://yiblet.me'
 - name: Bryan Yan
   bio: IT Guy, Lover of Aphrodite
   img-name: bryan
@@ -60,19 +44,9 @@
   img-name: matt
 - name: Ariela Immordino
   bio: Programmer
-- name: Emily Lo
-  bio: the coder who draws
-  img-name: emilylo
-  website: 'http://hiemilylo.github.io/'
-- name: Josh Zhanson
-  bio: Team Player
-  img-name: josh
 - name: Maxwell Johnson
   bio: tbh I thought there would be free food
   img-name: maxwell
-- name: Stephanie You
-  bio: The Clueless One
-  img-name: stephaniey
 - name: Tom Wildenhain
   bio: Programmer
 - name: Jeremy Leung
