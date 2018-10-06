@@ -1,63 +1,33 @@
-- name: Serena Wang
-  bio: Director
-  img-name: serena
 - name: Stephanie You
-  bio: Director of Finance
+  bio: Director
   img-name: stephaniey
+- name: Connor Mowry
+  bio: Director of Technology
+- name: Oscar Dadfar
+  bio: Director or Design
+- name: Sayan Chaudhry
+  bio: Director of Finance
+- name: Andy Gao
+  bio: Director of Events
+- name: Serena Wang
+  bio: Social Chair
+  img-name: serena
 - name: Emily Lo
-  bio: Director of Design
+  bio: Former Director of Design
   img-name: emilylo
   website: 'http://hiemilylo.github.io/'
 - name: Shalom Yiblet
   bio: Director of Technology
   img-name: shalom
-- name: Josh Zhanson
-  bio: Director of Events
-  img-name: josh
-- name: Scott Krulcik
-  bio: Former Director of Technology
-  img-name: scott
-  website: 'https://github.com/skrulcik'
-- name: Jason Chang
-  bio: Former Director of Communications
-  img-name: jason
   website: 'http://yiblet.me'
-- name: Maria Rodriguez
-  bio: Cat Lover
-  img-name: maria
+- name: Josh Zhanson
+  bio: Vice Social Chair
+  img-name: josh
 - name: Sandra Sajeev
   bio: Gopher Queen, Cheesecake enthusiast
   img-name: sandra
-- name: Tiffany Chen
-  bio: developer and designer
-  img-name: tiffany
-- name: Bryan Yan
-  bio: IT Guy, Lover of Aphrodite
-  img-name: bryan
-  website: 'http://bryanyan.github.io'
-- name: Angel Zhou
-  bio: 'Shines Bright Like A Plat 2'
-  img-name: angel
 - name: Emily Newman
   bio: CUPS Stacker
   img-name: emily
-- name: Ian Lo
-  bio: 'I''d Vote For Him'
-  img-name: ian
-- name: Justin Chu
-  bio: Amiable Hacker
-  img-name: justin
-  website: 'https://justinchuby.github.io'
-- name: Mattthew Lipari
-  bio: Designated Driver
-  img-name: matt
-- name: Ariela Immordino
-  bio: Programmer
-- name: Maxwell Johnson
-  bio: tbh I thought there would be free food
-  img-name: maxwell
 - name: Tom Wildenhain
   bio: Programmer
-- name: Jeremy Leung
-  bio: Snooker World Champion 2016
-  img-name: jeremy
