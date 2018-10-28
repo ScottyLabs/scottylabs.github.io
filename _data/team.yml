@@ -1,33 +1,82 @@
 - name: Stephanie You
   bio: Director
-  img-name: stephaniey
+  img-name: stephanie_you
+
 - name: Connor Mowry
   bio: Director of Technology
+  img-name: connor_mowry
+
 - name: Oscar Dadfar
   bio: Director or Design
+  img-name: oscar_dadfar
+
 - name: Sayan Chaudhry
   bio: Director of Finance
+  img-name: sayan_chaudhry
+  website: 'http://sayan.io'
+
 - name: Andy Gao
   bio: Director of Events
+
 - name: Serena Wang
   bio: Social Chair
-  img-name: serena
+  img-name: serena_wang
+  website: 'http://serena-w.github.io/'
+
 - name: Emily Lo
   bio: Former Director of Design
-  img-name: emilylo
+  img-name: emily_lo
   website: 'http://hiemilylo.github.io/'
+
 - name: Shalom Yiblet
-  bio: Director of Technology
-  img-name: shalom
+  bio: Former Director of Technology
+  img-name: shalom_yiblet
   website: 'http://yiblet.me'
+
 - name: Josh Zhanson
-  bio: Vice Social Chair
-  img-name: josh
+  bio: Former Director of Events
+  img-name: josh_zhanson
+  website: 'http://jzhanson.com'
+
+- name: Josh Durham
+  bio: Developer and Full Stack Hacker
+  img-name: josh_durham
+  website: 'https://github.com/joshuadurham'
+
+- name: Richard Guo
+  bio: Hopeful CS student
+  img-name: richard_guo
+  website: 'https://github.com/richardg999'
+
+- name: Anika Banga
+  bio: 01100111 01100101 01100101 01101011
+  img-name: anika_banga
+
+- name: Clarissa Xu
+  bio: Boba drinker and asian food eater
+  img-name: clarissa_xu
+  website: 'https://clarissaxu.com/'
+
+- name: Deepayan Patra
+  bio: Official Pine Tree
+  img-name: deepayan_patra
+
+- name: Ashwin Srinivasan
+  bio: Just another robot
+  img-name: ashwin_srinivasan
+
+- name: Aditya Pillai
+  bio: Most mispronounced name
+  img-name: aditya_pillai
+  website: 'https://www.adityapillai.com'
+
 - name: Sandra Sajeev
   bio: Gopher Queen, Cheesecake enthusiast
-  img-name: sandra
+  img-name: sandra_sajeev
+
 - name: Emily Newman
   bio: CUPS Stacker
-  img-name: emily
+  img-name: emily_newman
+
 - name: Tom Wildenhain
   bio: Programmer
