@@ -1,5 +1,6 @@
 - name: Scott Krulcik
   img-name: scott_krulcik
+
 - name: Stephanie You
   bio: Director
   img-name: stephanie_you
@@ -7,6 +8,7 @@
 - name: Connor Mowry
   bio: Director of Technology
   img-name: connor_mowry
+  website: 'https://crcmowry.github.io'
 
 - name: Oscar Dadfar
   bio: Director or Design
