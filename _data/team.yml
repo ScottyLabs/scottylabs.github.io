@@ -1,30 +1,50 @@
 - name: Scott Krulcik
   img-name: scott_krulcik
 
-- name: Stephanie You
-  bio: Director
-  img-name: stephanie_you
-
-- name: Connor Mowry
-  bio: Director of Technology
-  img-name: connor_mowry
-  website: 'https://crcmowry.github.io'
-
-- name: Oscar Dadfar
-  bio: Director or Design
-  img-name: oscar_dadfar
-
 - name: Sayan Chaudhry
-  bio: Director of Finance
+  bio: Director
   img-name: sayan_chaudhry
   website: 'http://sayan.io'
 
+- name: Josh Durham
+  bio: Director of Finance
+  img-name: josh_durham
+  website: 'https://github.com/joshuadurham'
+
+- name: Richard Guo
+  bio: Director of Technology
+  img-name: richard_guo
+  website: 'https://github.com/richardg999'
+
+- name: Akshath Jain
+  bio: Director of Operations
+  img-name: akshath_jain
+  website: 'https://akshathjain.com'
+
+- name: Michael Becker
+  bio: Director of Design
+  img-name: michael_becker
+  website: 'http://michaelbecker.dx.am'
+
+- name: Connor Mowry
+  bio: Social Chair
+  img-name: connor_mowry
+  website: 'https://crcmowry.github.io'
+
+- name: Stephanie You
+  bio: Former Director
+  img-name: stephanie_you
+
+- name: Oscar Dadfar
+  bio: Former Director of Design
+  img-name: oscar_dadfar
+
 - name: Andy Gao
-  bio: Director of Events
+  bio: Former Director of Events
   img-name: andy_gao
 
 - name: Serena Wang
-  bio: Social Chair
+  bio: Former Director
   img-name: serena_wang
   website: 'http://serena-w.github.io/'
 
@@ -42,47 +62,6 @@
   bio: Former Director of Events
   img-name: josh_zhanson
   website: 'http://jzhanson.com'
-
-- name: Josh Durham
-  bio: Developer and Full Stack Hacker
-  img-name: josh_durham
-  website: 'https://github.com/joshuadurham'
-
-- name: Richard Guo
-  bio: Hopeful CS student
-  img-name: richard_guo
-  website: 'https://github.com/richardg999'
-
-- name: Anika Banga
-  bio: 01100111 01100101 01100101 01101011
-  img-name: anika_banga
-
-- name: Clarissa Xu
-  bio: Boba drinker and asian food eater
-  img-name: clarissa_xu
-  website: 'https://clarissaxu.com/'
-
-- name: Deepayan Patra
-  bio: Official Pine Tree
-  img-name: deepayan_patra
-
-- name: Ashwin Srinivasan
-  bio: Just another robot
-  img-name: ashwin_srinivasan
-
-- name: Aditya Pillai
-  bio: Most mispronounced name
-  img-name: aditya_pillai
-  website: 'https://www.adityapillai.com'
-
-- name: Akshath Jain
-  bio: Avid Netflix Watcher
-  img-name: akshath_jain
-  website: 'https://akshathjain.com'
-
-- name: Sandra Sajeev
-  bio: Gopher Queen, Cheesecake enthusiast
-  img-name: sandra_sajeev
 
 - name: Emily Newman
   bio: CUPS Stacker
