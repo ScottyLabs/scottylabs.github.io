@@ -27,3 +27,5 @@ Temporary Items
 
 .*.sw[nop]
 tags
+
+Gemfile.lock
