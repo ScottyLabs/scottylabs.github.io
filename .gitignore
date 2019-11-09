@@ -24,6 +24,8 @@ _site
 Network Trash Folder
 Temporary Items
 .apdisk
+.vscode/launch.json
+_data/team.yml.code-workspace
 
 .*.sw[nop]
 tags
