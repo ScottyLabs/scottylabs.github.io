@@ -77,3 +77,47 @@
 - name: Tom Cortina
   bio: Faculty Advisor
   img-name: tom_cortina
+
+- name: Olivia Corrodi
+  bio: Head of Logistics Committee
+  img-name: olivia_corrodi
+
+- name: Keiffer Acoba
+  bio: Head of Content Committee
+  img-name: keiffer_acoba
+
+- name: Richard Yan
+  bio: Head of Outreach Committee
+  img-name: richard_yan
+
+- name: Deepayan Patra
+  bio: Head of Food Committee
+  img-name: deepayan_patra
+
+- name: Max Jiam
+  bio: Member of Tech Committee
+  img-name: max_jiam
+
+- name: Gram Liu
+  bio: Member of Tech Committee
+  img-name: gram_liu
+
+- name: Joseph Li
+  bio: Member of Tech Committee
+  img-name: joseph_li
+
+- name: Lawrence Chen
+  bio: Member of Tech Committee
+  img-name: lawrence_chen
+
+- name: Joyce Liao
+  bio: Member of Tech Committee
+  img-name: joyce_liao
+
+- name: David Hwang
+  bio: Member of Tech Committee
+  img-name: david_hwang
+
+- name: Gloria Moon
+  bio: Member of Outreach Committee
+  img-name: gloria_moon
