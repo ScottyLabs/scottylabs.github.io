@@ -29,6 +29,10 @@ Once you've done that, you can preview the site locally by running
 ```console
 $ jekyll serve
 ```
+If the above doesn't work, try running
+```console
+$ bundle exec jekyll serve
+```
 
 This will compile the static files, including all Sass assets. Then, in your
 browser, navigate to <http://localhost:4000/> to view the generated site.
