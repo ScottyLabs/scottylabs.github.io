@@ -110,13 +110,13 @@
   bio: Member of Tech Committee
   img-name: joseph_li
 
-- name: Lawrence Chen
-  bio: Member of Tech Committee
-  img-name: lawrence_chen
-
 - name: Ishika Saxena
   bio: Member of Tech Committee
   img-name: ishika_saxena
+
+- name: Lawrence Chen
+  bio: Member of Tech Committee
+  img-name: lawrence_chen
 
 - name: David Hwang
   bio: Member of Tech Committee
@@ -126,6 +126,14 @@
   bio: Member of Tech Committee
   img-name: joyce_liao
 
+- name: Anushka Saxena
+  bio: Member of Outreach Committee
+  img-name: anushka_saxena
+
 - name: Gloria Moon
   bio: Member of Outreach Committee
   img-name: gloria_moon
+
+- name: Sruti Srinidhi
+  bio: Member of Content Committee
+  img-name: sruti_srinidhi
