@@ -11,6 +11,7 @@ body {
 
 .text-muted {
     color: #000;
+    margin-bottom: 20px;
 }
 
 .text-primary {
@@ -259,6 +260,10 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+}
+
+.logo {
+    margin-top: -0.8vh;
 }
 
 header {
