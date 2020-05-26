@@ -6,70 +6,50 @@
   img-name: sayan_chaudhry
   website: 'http://sayan.io'
 
-- name: Josh Durham
-  bio: Director of Finance
-  img-name: josh_durham
-  website: 'https://github.com/joshuadurham'
-
-- name: Richard Guo
-  bio: Director of Technology
-  img-name: richard_guo
-  website: 'https://github.com/richardg999'
-
 - name: Akshath Jain
-  bio: Director of Operations
+  bio: Director of Finance
   img-name: akshath_jain
   website: 'https://akshathjain.com'
 
-- name: Michael Becker
-  bio: Director of Design
-  img-name: michael_becker
-  website: 'http://michaelbecker.dx.am'
+- name: Keiffer Acoba
+  bio: Director of Operations
+  img-name: keiffer_acoba
 
-- name: Mayank Jain
+- name: Anushka Saxena
   bio: Director of Events
-  img-name: mayank_jain
+  img-name: anushka_saxena
 
-- name: Connor Mowry
-  bio: Social Chair
-  img-name: connor_mowry
-  website: 'https://crcmowry.github.io'
+- name: Gram Liu
+  bio: Director of Technology
+  img-name: gram_liu
+  website: 'https://gramliu.com/'
 
-- name: Stephanie You
-  bio: Former Director
-  img-name: stephanie_you
+- name: Yoshi Torralva
+  bio: Director of Design
 
-- name: Oscar Dadfar
-  bio: Former Director of Design
-  img-name: oscar_dadfar
+- name: Deepayan Patra
+  bio: Chief of Staff
+  img-name: deepayan_patra
 
-- name: Andy Gao
-  bio: Former Director of Events
-  img-name: andy_gao
+- name: Arleen Liu
+  bio: Head of Sponsorship
+  img-name: arleen_liu
 
-- name: Serena Wang
-  bio: Former Director
-  img-name: serena_wang
-  website: 'http://serena-w.github.io/'
+- name: Olivia Corrodi
+  bio: Head of Logistics
+  img-name: olivia_corrodi
 
-- name: Emily Lo
-  bio: Former Director of Design
-  img-name: emily_lo
-  website: 'http://hiemilylo.github.io/'
+- name: Richard Yan
+  bio: Head of Food
+  img-name: richard_yan
 
-- name: Shalom Yiblet
-  bio: Former Director of Technology
-  img-name: shalom_yiblet
-  website: 'http://yiblet.me'
+- name: Varshini Selvadurai
+  bio: Head of Curation
+  img-name: varshini_selvadurai
 
-- name: Josh Zhanson
-  bio: Former Director of Events
-  img-name: josh_zhanson
-  website: 'http://jzhanson.com'
-
-- name: Emily Newman
-  bio: CUPS Stacker
-  img-name: emily_newman
+- name: Sruti Srinidhi
+  bio: Head of Community
+  img-name: sruti_srinidhi
 
 - name: Tom Wildenhain
   bio: Programmer
@@ -78,62 +58,69 @@
   bio: Faculty Advisor
   img-name: tom_cortina
 
-- name: Olivia Corrodi
-  bio: Head of Logistics Committee
-  img-name: olivia_corrodi
+- name: Josh Durham
+  bio: Former Director of Finance (2019-2020)
+  img-name: josh_durham
+  website: 'https://github.com/joshuadurham'
 
-- name: Keiffer Acoba
-  bio: Head of Content Committee
-  img-name: keiffer_acoba
+- name: Michael Becker
+  bio: Former Director of Design (2019-2020)
+  img-name: michael_becker
+  website: 'http://michaelbecker.dx.am'
 
-- name: Richard Yan
-  bio: Head of Outreach Committee
-  img-name: richard_yan
+- name: Mayank Jain
+  bio: Former Director of Events (2019-2020)
+  img-name: mayank_jain
 
-- name: Deepayan Patra
-  bio: Head of Food Committee
-  img-name: deepayan_patra
-
-- name: Yo-Lei Chen
-  bio: Head of Sponsorship Committee
-  img-name: yolei_chen
-
-- name: Max Jiam
-  bio: Member of Tech Committee
-  img-name: max_jiam
-
-- name: Gram Liu
-  bio: Member of Tech Committee
-  img-name: gram_liu
-
-- name: Joseph Li
-  bio: Member of Tech Committee
-  img-name: joseph_li
-
-- name: Ishika Saxena
-  bio: Member of Tech Committee
-  img-name: ishika_saxena
-
-- name: Lawrence Chen
-  bio: Member of Tech Committee
-  img-name: lawrence_chen
+- name: Richard Guo
+  bio: Former Director of Tech (2019-2020)
+  img-name: richard_guo
+  website: 'https://github.com/richardg999'
 
 - name: David Hwang
-  bio: Member of Tech Committee
+  bio: Tech Project Lead
   img-name: david_hwang
 
+- name: Max Jiam
+  bio: Tech Project Lead
+  img-name: max_jiam
+
+- name: Joseph Li
+  bio: Tech Project Lead
+  img-name: joseph_li
+
 - name: Joyce Liao
-  bio: Member of Tech Committee
+  bio: Tech Project Lead
   img-name: joyce_liao
 
-- name: Anushka Saxena
-  bio: Member of Outreach Committee
-  img-name: anushka_saxena
+- name: Ishika Saxena
+  bio: Tech Project Lead
+  img-name: ishika_saxena
 
-- name: Gloria Moon
-  bio: Member of Outreach Committee
-  img-name: gloria_moon
+- name: Ayoub Mansar
+  bio: Tech Project Lead
 
-- name: Sruti Srinidhi
-  bio: Member of Content Committee
-  img-name: sruti_srinidhi
+- name: Sue Lee
+  bio: Tech Project Lead
+
+- name: Sarah Pethani
+  bio: Member of Tech Committee
+
+- name: Rita Zhang
+  bio: Member of Tech Committee
+
+- name: Clara Wang
+  bio: Member of Tech Committee
+
+- name: Angela Zhang
+  bio: Member of Tech Committee
+
+- name: Arvin Wu
+  bio: Member of Tech Committee
+
+- name: Srinivas Lade
+  bio: Member of Tech Committee
+
+- name: Yo-Lei Chen
+  bio: Member
+  img-name: yolei_chen
