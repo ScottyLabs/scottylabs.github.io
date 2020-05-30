@@ -1,15 +1,193 @@
-"2015-2016":
-  - name: Mark Vella
-    bio: Director
+"exec":
+-  "2020-2021":
+    - name: Sayan Chaudhry
+      bio: Director
 
-  - name: Monisha Gopal
-    bio: Director of Finance
+    - name: Akshath Jain
+      bio: Director of Finance
 
-  - name: Oscar Bezi
-    bio: Director of Operations
+    - name: Keiffer Acoba
+      bio: Director of Operations
 
-  - name: Monisha Gopal
-    bio: Director of Technology
+    - name: Anushka Saxena
+      bio: Director of Events
 
-  - name: Lois Chang
-    bio: Director of Design
+    - name: Gram Liu
+      bio: Director of Technology
+
+    - name: Yoshi Torralva
+      bio: Director of Design
+
+    - name: Deepayan Patra
+      bio: Chief of Staff
+
+    - name: Arleen Liu
+      bio: Head of Sponsorship
+
+    - name: Olivia Corrodi
+      bio: Head of Logistics
+
+    - name: Richard Yan
+      bio: Head of Food
+
+    - name: Varshini Selvadurai
+      bio: Head of Curation
+
+    - name: Sruti Srinidhi
+      bio: Head of Community
+      
+-  "2019-2020":
+    - name: Sayan Chaudhry
+      bio: Director
+
+    - name: Josh Durham
+      bio: Director of Finance
+
+    - name: Akshath Jain
+      bio: Director of Operations
+
+    - name: Mayank Jain
+      bio: Director of Events
+
+    - name: Richard Guo
+      bio: Director of Technology
+
+    - name: Michael Becker
+      bio: Director of Design
+
+    - name: Yo-Lei Chen
+      bio: Head of Sponsorship
+
+    - name: Olivia Corrodi
+      bio: Head of Logistics
+
+    - name: Deepayan Patra
+      bio: Head of Food
+
+    - name: Richard Yan
+      bio: Head of Outreach
+
+    - name: Keiffer Acoba
+      bio: Head of Content
+
+    - name: Srinivas Lade
+      bio: Head of Full Stack
+
+    - name: Robin Han
+      bio: Head of Backend
+
+    - name: Audrey Jin
+      bio: Head of Branding
+
+-  "2018-2019":
+    - name: Stephanie You
+      bio: Director
+
+    - name: Sayan Chaudhry
+      bio: Director of Finance
+
+    - name: Andy Gao
+      bio: Director of Events
+
+    - name: Connor Mowry
+      bio: Director of Technology
+
+    - name: Oscar Dadfar
+      bio: Director of Design
+
+-  "2017-2018":
+    - name: Serena Wang
+      bio: Director
+
+    - name: Stephanie You
+      bio: Director of Finance
+
+    - name: Josh Zhanson
+      bio: Director of Events
+
+    - name: Shalom Yiblet
+      bio: Director of Technology
+
+    - name: Emily Lo
+      bio: Director of Design
+
+-  "2016-2017":
+    - name: Jackie Gaston
+      bio: Director
+
+    - name: Serena Wang
+      bio: Director of Finance
+
+    - name: Shalom Yiblet
+      bio: Director of Operations
+
+    - name: Scott Krulcik
+      bio: Director of Technology
+
+    - name: Jason Chang
+      bio: Director of Design
+
+-  "2015-2016":
+    - name: Mark Vella
+      bio: Director
+
+    - name: Monisha Gopal
+      bio: Director of Finance
+
+    - name: Oscar Bezi
+      bio: Director of Operations
+
+    - name: Jake Zimmerman
+      bio: Director of Technology
+
+    - name: Lois Chang
+      bio: Director of Design
+
+-  "2014-2015":
+    - name: Taylor Poulos
+      bio: Director
+
+    - name: Tom Shen
+      bio: Director of Technology
+
+    - name: Jake Zimmerman
+      bio: Director of Operations
+
+    - name: Monisha Gopal
+      bio: Director of Finance
+
+    - name: Lois Yang
+      bio: Director of Communications
+
+-  "2013-2014":
+    - name: Taylor Poulos
+      bio: Director
+
+-  "2012-2013":
+    - name: Julia Teitelbaum
+      bio: Director
+
+    - name: Jeff "The Jeff" Cooper
+      bio: Director of Operations
+
+    - name: Drew Inglis
+      bio: Director of Technology
+
+    - name: Amy Quispe
+      bio: Social Chair
+
+    - name: Quintin Carlon
+      bio: Director of TartanHacks
+
+-  "2011-2012":
+    - name: Vinay Vemuri
+      bio: Co-Founder, OG CTO
+
+    - name: Amy Quispe
+      bio: Co-Founder, OG Director
+
+    - name: Jeff "The Jeff" Cooper
+      bio: COO
+
+    - name: Kellie Medlin
+      bio: CTO
