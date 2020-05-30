@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+  .navbar-default {
+    padding: 25px 0;
+    border: 0;
+    background-color: rgba(102,102,102,1);
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+}
+
+.yearHeading {
+    margin-bottom: 2em;
+}

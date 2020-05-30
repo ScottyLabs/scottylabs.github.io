@@ -1,102 +1,74 @@
 - name: Scott Krulcik
   img-name: scott_krulcik
 
+- name: Tom Cortina
+  bio: Faculty Advisor
+
 - name: Sayan Chaudhry
   bio: Director
-  img-name: sayan_chaudhry
-  website: 'http://sayan.io'
 
 - name: Akshath Jain
   bio: Director of Finance
-  img-name: akshath_jain
-  website: 'https://akshathjain.com'
 
 - name: Keiffer Acoba
   bio: Director of Operations
-  img-name: keiffer_acoba
 
 - name: Anushka Saxena
   bio: Director of Events
-  img-name: anushka_saxena
 
 - name: Gram Liu
   bio: Director of Technology
-  img-name: gram_liu
-  website: 'https://gramliu.com/'
 
 - name: Yoshi Torralva
   bio: Director of Design
-  img-name: yoshi_torralva
 
 - name: Deepayan Patra
   bio: Chief of Staff
-  img-name: deepayan_patra
 
 - name: Arleen Liu
   bio: Head of Sponsorship
-  img-name: arleen_liu
 
 - name: Olivia Corrodi
   bio: Head of Logistics
-  img-name: olivia_corrodi
 
 - name: Richard Yan
   bio: Head of Food
-  img-name: richard_yan
 
 - name: Varshini Selvadurai
   bio: Head of Curation
-  img-name: varshini_selvadurai
 
 - name: Sruti Srinidhi
   bio: Head of Community
-  img-name: sruti_srinidhi
 
 - name: Tom Wildenhain
   bio: Programmer
 
-- name: Tom Cortina
-  bio: Faculty Advisor
-  img-name: tom_cortina
-
 - name: Josh Durham
   bio: Former Director of Finance (2019-2020)
-  img-name: josh_durham
-  website: 'https://github.com/joshuadurham'
 
 - name: Michael Becker
   bio: Former Director of Design (2019-2020)
-  img-name: michael_becker
-  website: 'http://michaelbecker.dx.am'
 
 - name: Mayank Jain
   bio: Former Director of Events (2019-2020)
-  img-name: mayank_jain
 
 - name: Richard Guo
   bio: Former Director of Tech (2019-2020)
-  img-name: richard_guo
-  website: 'https://github.com/richardg999'
 
 - name: David Hwang
   bio: Tech Project Lead
-  img-name: david_hwang
 
 - name: Max Jiam
   bio: Tech Project Lead
-  img-name: max_jiam
 
 - name: Joseph Li
   bio: Tech Project Lead
-  img-name: joseph_li
 
 - name: Joyce Liao
   bio: Tech Project Lead
-  img-name: joyce_liao
 
 - name: Ishika Saxena
   bio: Tech Project Lead
-  img-name: ishika_saxena
 
 - name: Ayoub Mansar
   bio: Tech Project Lead
@@ -124,4 +96,3 @@
 
 - name: Yo-Lei Chen
   bio: Member
-  img-name: yolei_chen

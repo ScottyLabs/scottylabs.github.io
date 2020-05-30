@@ -309,17 +309,24 @@
             </div>
             <div class="row">
                 {% for member in site.data.team %}
+                    {% assign info = site.data.members | where: "name", member.name | first %}
+                    {% assign img-name = Nil %}
+                    {% assign website = Nil %}
+                    {% if info %}
+                        {% assign img-name = info.img-name %}
+                        {% assign website = info.website %}
+                    {% endif %}
                     <div class="col-sm-4">
                         <div class="team-member">
-                            {% if member.img-name %}
-                                <div class="team-img-wrapper" data-lazy-load-image="img/team/{{ member.img-name }}.jpg"></div>
+                            {% if img-name %}
+                                <div class="team-img-wrapper" data-lazy-load-image="img/team/{{ img-name }}.jpg"></div>
                             {% else %}
                                 <div class="team-img-wrapper">
                                     <img src="img/scotty-circle.svg" class="img-responsive img-circle" alt="member image" />
                                 </div>
                             {% endif %}
-                            {% if member.website %}
-                                <h4><a href="{{ member.website }}">{{ member.name }}</a></h4>
+                            {% if website %}
+                                <h4><a href="{{ website }}">{{ member.name }}</a></h4>
                             {% else %}
                                 <h4>{{ member.name }}</h4>
                             {% endif %}
