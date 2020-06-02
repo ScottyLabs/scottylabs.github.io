@@ -1,3 +1,7 @@
+# Present
+- name: Tom Cortina
+  img-name: tom_cortina
+
 - name: Scott Krulcik
   img-name: scott_krulcik
 
@@ -40,21 +44,9 @@
 - name: Sruti Srinidhi
   img-name: sruti_srinidhi
 
-- name: Tom Wildenhain
-
-- name: Tom Cortina
-  img-name: tom_cortina
-
-- name: Josh Durham
-  img-name: josh_durham
-  website: 'https://github.com/joshuadurham'
-
 - name: Michael Becker
   img-name: michael_becker
   website: 'http://michaelbecker.dx.am'
-
-- name: Mayank Jain
-  img-name: mayank_jain
 
 - name: Richard Guo
   img-name: richard_guo
@@ -84,6 +76,7 @@
 
 - name: Rita Zhang
   img-name: rita_zhang
+  website: 'https://ritatzhang.me'
 
 - name: Clara Wang
 
@@ -91,7 +84,105 @@
 
 - name: Arvin Wu
 
-- name: Srinivas Lade
-
 - name: Yo-Lei Chen
   img-name: yolei_chen
+
+# 2019-2020
+- name: Josh Durham
+  img-name: josh_durham
+  website: 'https://github.com/joshuadurham'
+
+- name: Mayank Jain
+  img-name: mayank_jain
+
+- name: Tom Wildenhain
+
+- name: Srinivas Lade
+
+
+# 2018-2019
+- name: Stephanie You
+  img-name: stephanie_you
+
+- name: Andy Gao
+  img-name: andy_gao
+
+- name: Connor Mowry
+  img-name: connor_mowry
+  website: 'https://crcmowry.github.io'
+
+- name: Oscar Dadfar
+  img-name: oscar_dadfar
+
+- name: Emily Newman
+  img-name: emily_newman
+
+# 2017-2018
+- name: Serena Wang
+  img-name: serena_wang
+  website: 'http://serena-w.github.io/'
+
+- name: Josh Zhanson
+  img-name: josh_zhanson
+  website: 'http://jzhanson.com'
+
+- name: Shalom Yiblet
+  img-name: shalom_yiblet
+  website: 'http://yiblet.me'
+
+- name: Emily Lo
+  img-name: emily_lo
+  website: 'http://hiemilylo.github.io/'
+
+# 2016-2017
+- name: Jackie Gaston
+  img-name: jackie_gaston
+
+- name: Jason Chang
+  img-name: jason_chang
+
+# 2015-2016
+- name: Mark Vella
+  img-name: mark_vella
+
+- name: Monisha Gopal
+  img-name: monisha_gopal
+
+- name: Jake Zimmerman
+  img-name: jake_zimmerman
+
+- name: Lois Yang
+  img-name: lois_yang
+
+- name: Oscar Bezi
+  img-name: oscar_bezi
+  website: 'http://bezi.io'
+
+# 2014-2015
+- name: Tom Shen
+  img-name: tom_shen
+
+- name: Taylor Poulos
+  img-name: taylor_poulos
+
+# 2012-2013
+- name: Julia Teitelbaum
+  img-name: julia_teitelbaum
+
+- name: Jeff "The Jeff" Cooper
+  img-name: jeff_cooper
+
+- name: Amy Quispe
+  img-name: amy_quispe
+
+- name: Quintin Carlon
+  img-name: quintin_carlon
+
+- name: Drew Inglis
+  img-name: drew_inglis
+
+# 2011-2012
+- name: Kellie Medlin
+  img-name: kellie_medlin
+
+- name: Vinay Vemuri

@@ -100,17 +100,17 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- Exec Section -->
+    <!-- Officers Section -->
     <section id="officers">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Alumni</h2>
+                    <h2 class="section-heading">Officers</h2>
                     <h3 class="section-subheading text-muted">Officers through the Years</h3>
                 </div>
             </div>
             <div class="row">
-                {% for yearEntry in site.data.alumni.exec %}
+                {%- for yearEntry in site.data.alumni.officers -%}
                     <div class="row">
                     {% for item in yearEntry %}
                         {% assign year = item[0] %}
@@ -152,6 +152,58 @@
             </div>
         </div>
     </section>
+    <hr />
+    <!-- Alumni -->
+     <section id="alumni">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Alumni</h2>
+                  <h3 class="section-subheading text-muted">Our legendary alumni</h3>
+              </div>
+          </div>
+          <div class="row">
+              {%- for yearEntry in site.data.alumni.members -%}
+                  <div class="row">
+                  {% for item in yearEntry %}
+                      {% assign year = item[0] %}
+                      {% assign members = item[1] %}
+                      <div class="row yearHeading">
+                          <div class="col-lg-12 text-center">
+                              <h2 class="section-heading">{{ year }}</h2>
+                          </div>
+                      </div>
+                      {% for member in members %}
+                          {% assign info = site.data.members | where: "name", member.name | first %}
+                          {% assign img-name = Nil %}
+                          {% assign website = Nil %}
+                          {% if info %}
+                              {% assign img-name = info.img-name %}
+                              {% assign website = info.website %}
+                          {% endif %}
+                          <div class="col-sm-4">
+                              <div class="team-member">
+                                  {% if img-name %}
+                                      <div class="team-img-wrapper" data-lazy-load-image="../img/team/{{ img-name }}.jpg"></div>
+                                  {% else %}
+                                      <div class="team-img-wrapper">
+                                          <img src="../img/scotty-circle.svg" class="img-responsive img-circle" alt="member image" />
+                                      </div>
+                                  {% endif %}
+                                  {% if website %}
+                                      <h4><a href="{{ website }}">{{ member.name }}</a></h4>
+                                  {% else %}
+                                      <h4>{{ member.name }}</h4>
+                                  {% endif %}
+                              </div>
+                          </div>
+                      {% endfor %}
+                  {% endfor %}
+                  </div>
+               {% endfor %}
+          </div>
+      </div>
+  </section>
 
     <footer>
         <div class="container">
