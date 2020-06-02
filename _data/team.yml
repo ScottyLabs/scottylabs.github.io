@@ -40,20 +40,8 @@
 - name: Sruti Srinidhi
   bio: Head of Community
 
-- name: Tom Wildenhain
-  bio: Programmer
-
-- name: Josh Durham
-  bio: Former Director of Finance (2019-2020)
-
-- name: Michael Becker
-  bio: Former Director of Design (2019-2020)
-
-- name: Mayank Jain
-  bio: Former Director of Events (2019-2020)
-
 - name: Richard Guo
-  bio: Former Director of Tech (2019-2020)
+  bio: Tech Project Lead
 
 - name: David Hwang
   bio: Tech Project Lead
@@ -76,6 +64,12 @@
 - name: Sue Lee
   bio: Tech Project Lead
 
+- name: Yo-Lei Chen
+  bio: Member
+
+- name: Michael Becker
+  bio: Member
+
 - name: Sarah Pethani
   bio: Member of Tech Committee
 
@@ -93,6 +87,3 @@
 
 - name: Srinivas Lade
   bio: Member of Tech Committee
-
-- name: Yo-Lei Chen
-  bio: Member

@@ -1,4 +1,4 @@
-"exec":
+"officers":
 -  "2020-2021":
     - name: Sayan Chaudhry
       bio: Director
@@ -140,7 +140,7 @@
     - name: Jake Zimmerman
       bio: Director of Technology
 
-    - name: Lois Chang
+    - name: Lois Yang
       bio: Director of Design
 
 -  "2014-2015":
@@ -191,3 +191,55 @@
 
     - name: Kellie Medlin
       bio: CTO
+
+"members":
+-  "2019-2020":
+    - name: Sayan Chaudhry
+    - name: Josh Durham
+    - name: Mayank Jain
+    - name: Yo-Lei Chen
+    - name: Srinivas Lade
+    - name: Robin Han
+    - name: Audrey Jin
+
+-  "2018-2019":
+    - name: Stephanie You
+    - name: Andy Gao
+    - name: Connor Mowry
+    - name: Oscar Dadfar
+
+-  "2017-2018":
+    - name: Serena Wang
+    - name: Josh Zhanson
+    - name: Shalom Yiblet
+    - name: Emily Lo
+
+-  "2016-2017":
+    - name: Jackie Gaston
+    - name: Scott Krulcik
+    - name: Jason Chang
+
+-  "2015-2016":
+    - name: Mark Vella
+    - name: Monisha Gopal
+    - name: Oscar Bezi
+    - name: Jake Zimmerman
+    - name: Lois Yang
+
+-  "2014-2015":
+    - name: Taylor Poulos
+    - name: Tom Shen
+    - name: Lois Yang
+
+-  "2013-2014":
+
+-  "2012-2013":
+    - name: Julia Teitelbaum
+    - name: Jeff "The Jeff" Cooper
+    - name: Drew Inglis
+    - name: Amy Quispe
+    - name: Quintin Carlon
+
+-  "2011-2012":
+    - name: Vinay Vemuri
+    - name: Kellie Medlin
